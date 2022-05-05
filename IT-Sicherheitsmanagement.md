@@ -1,5 +1,5 @@
 # IT-Sicherheitsmanagement <!-- omit in toc -->
-
+Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung [IT-Sicherheitsmanagement](https://app.mural.co/t/muralworkspace0660/m/muralworkspace0660/1649403349728/628afc077b71280e3990441f323e0eb96e9fb9a7?sender=u97fae70e91dca3860c9e8161).
 # Inhaltsverzeichnis <!-- omit in toc -->
 - [Der Fall Buchbinder](#der-fall-buchbinder)
   - [Mögliche Ursachen](#mögliche-ursachen)
@@ -17,3 +17,4 @@
 - fehlende Governance
 
 ## Gegenmaßnahmen
+
