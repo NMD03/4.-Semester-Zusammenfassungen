@@ -48,7 +48,7 @@ Modell mit [4 Menschentypen](https://www.youtube.com/watch?v=-IOp9qrjLJU):
 ![DISG-Modell](./img/DISG.png)
 
 ### Anpassung des Kommunikationsstils 
-Je nach Gesprächspartner und gewünschter eigener Wirkung auf den Gegenüber sind unterschiedliche Komunikationstils erforderlich. Nach dem oben genannten DISG Modell gilt:
+Je nach Gesprächspartner und gewünschter eigener Wirkung auf den Gegenüber sind unterschiedliche Komunikationstils erforderlich. Nach dem oben genannten DISG Modell gilt:<br>
 ![Kommunikation mit D](./img/D.png)
 ![Kommunikation mit G](./img/G.png)
 ![Kommunikation mit I](./img/I.png)
