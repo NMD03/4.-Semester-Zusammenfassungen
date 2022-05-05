@@ -1,5 +1,5 @@
 # IT-Recht <!-- omit in toc -->
-
+Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man_student:
 # Inhaltsverzeichnis <!-- omit in toc -->
 - [Derzeitige Sicherheitssituation](#derzeitige-sicherheitssituation)
   - [Human Operated Ransomware](#human-operated-ransomware)
