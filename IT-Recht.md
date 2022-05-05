@@ -2,5 +2,40 @@
 
 # Inhaltsverzeichnis <!-- omit in toc -->
 - [Derzeitige Sicherheitssituation](#derzeitige-sicherheitssituation)
+  - [Human Operated Ransomware](#human-operated-ransomware)
+  - [Schwachstellen im Information Security Managment System (ISMS) und der Cyber Security](#schwachstellen-im-information-security-managment-system-isms-und-der-cyber-security)
 
 # Derzeitige Sicherheitssituation
+Die aktuelle internationale Sicherheitssituation wird so eingeschätzt, dass es ein **hohes Risiko** für **Cyberattacken** gibt. Die aktuell größte Bedrohung stellt **Ransomware** dar. Dabei weitet sich der Scope auf Enterprise Level aus, das heißt es wird versucht alle Daten und Systeme eines gesamten Unternehmens zu verschlüsseln. Der aktuelle State of the Art im Bezug auf Ransomware ist demnach **Human Operated Ransomware**.
+## Human Operated Ransomware
+Ein Angriff mithilfe von Human Operated Ransomware läuft im wesentlichen in 3 Schritten ab:
+1. **Eindringen in die Umgebung**
+2. **Systeme des Unternehmens infizieren**
+3. **Systeme koordiniert verschlüsseln**
+   
+Alle diese Schritte werden von einem **menschlichen Operator** überwacht und geleitet. Dabei werden **Scripts** und **Malware** als Hilfsmittel verwendet. 
+- Human Operated Ransomware hat aufgrund des ausgeweiteten Scopes einen **hohen Business Impact**
+- Attacken sind idR. **sehr profitabel** für den Angreifer
+
+## Schwachstellen im Information Security Managment System (ISMS) und der Cyber Security
+
+- unklare Voraussetzungen z.B. im Bezug auf die Stakeholder
+- fehlendes Infosec Processing Model
+- Fehlende Lifecycle für Produkte und Services
+- einziger Schwerpunkt auf die IT
+- fehlende Standardisierung
+- fehlender Notfallplan
+- viele Schwachstellen in Software
+- fehlende Absicherung gegen Malware
+- fehlende Internationale Identifikation und Autorisierung (z.B. Geschäftsreisen)
+
+**weitere potenzielle Einfallstüren**:
+- unsichere Webseiten
+- E-Mail (immer weniger)
+- zu viel Datenfreigabe (z.B. soziale Medien)
+- fehlende Internet Kompetenz im Allgemeinen
+- Mobile Endgeräte
+- manipulierte IT (z.B. O.MG Cable etc.)
+- unsichere IOT
+- Fake News
+Geheimdienste
