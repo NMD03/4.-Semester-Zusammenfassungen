@@ -4,6 +4,8 @@
 - [Derzeitige Sicherheitssituation](#derzeitige-sicherheitssituation)
   - [Human Operated Ransomware](#human-operated-ransomware)
   - [Schwachstellen im Information Security Managment System (ISMS) und der Cyber Security](#schwachstellen-im-information-security-managment-system-isms-und-der-cyber-security)
+- [Standardisierung](#standardisierung)
+  - [Prozess zum implementieren eines Information Sicherheit Management Systems (ISMS):](#prozess-zum-implementieren-eines-information-sicherheit-management-systems-isms)
 
 # Derzeitige Sicherheitssituation
 Die aktuelle internationale Sicherheitssituation wird so eingeschätzt, dass es ein **hohes Risiko** für **Cyberattacken** gibt. Die aktuell größte Bedrohung stellt **Ransomware** dar. Dabei weitet sich der Scope auf Enterprise Level aus, das heißt es wird versucht alle Daten und Systeme eines gesamten Unternehmens zu verschlüsseln. Der aktuelle State of the Art im Bezug auf Ransomware ist demnach **Human Operated Ransomware**.
@@ -38,4 +40,33 @@ Alle diese Schritte werden von einem **menschlichen Operator** überwacht und ge
 - manipulierte IT (z.B. O.MG Cable etc.)
 - unsichere IOT
 - Fake News
-Geheimdienste
+- Geheimdienste
+
+# Standardisierung
+mögliche Standards:
+- ISO 27001
+- TISAX (Trusted Information Security Assessment Exchange)
+    - Zertifizierung für Automobilhersteller
+- BSI Standard 200
+- KRITIS
+- IT-Sicherheitsgestz
+
+## Prozess zum implementieren eines Information Sicherheit Management Systems (ISMS):
+1. Prozess startet im Top Management:
+    - strategische Entscheidungen treffen
+    - Scope festlegen
+    - policies bestimmen
+    - Rollen und Verantwortungen vergeben
+2. Voraussetzungen festlegen z.B. für ISO 27001
+3. Stakeholder bestimmen
+4. ISMS Scope bestimmen -> Scope bestimmt das Management
+5. GAP Analyse ausführen
+    - stellt benötigte Zeit fest
+    - derzeitiger Status
+    - nötige Verbesserungen
+    - benötigtes Kapital
+6. Benötigte Zeit und Kapital abschätzen:
+    - Standard Projekt Management Aufgabe
+7. Management Approval einholen (schriftlich)
+8. Project starten
+
