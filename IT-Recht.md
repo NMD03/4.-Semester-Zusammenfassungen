@@ -19,6 +19,9 @@ Alle diese Schritte werden von einem **menschlichen Operator** überwacht und ge
 - Human Operated Ransomware hat aufgrund des ausgeweiteten Scopes einen **hohen Business Impact**
 - Attacken sind idR. **sehr profitabel** für den Angreifer
 
+**Kernpunkte:**
+![Ransomware](./img/Ransomware.png)
+
 ## Schwachstellen im Information Security Managment System (ISMS) und der Cyber Security
 
 - unklare Voraussetzungen z.B. im Bezug auf die Stakeholder
@@ -52,6 +55,7 @@ Mögliche Standards:
 - IT-Sicherheitsgestz
 
 ## Prozess zum implementieren eines Information Sicherheit Management Systems (ISMS):
+![ISMS Implementierung](./img/ISMS%20Implementierung.png)
 1. **Prozess startet im Top Management:**
     - strategische Entscheidungen treffen
     - Scope festlegen
