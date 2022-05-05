@@ -12,6 +12,7 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Social Enginee
     - [DISG Modell](#disg-modell)
     - [Anpassung des Kommunikationsstils](#anpassung-des-kommunikationsstils)
   - [Psychologie](#psychologie)
+    - [Automatische Handlungsmuster](#automatische-handlungsmuster)
   
 # [Kapitel 1](https://app.mural.co/t/socialengineering4901/m/socialengineering4901/1649020782036/c4bb48a80903b77e09d006c14924b513ad560caa?sender=thomasklir4329)
 
@@ -55,3 +56,19 @@ Je nach Gesprächspartner und gewünschter eigener Wirkung auf den Gegenüber si
 ![Kommunikation mit S](./img/S.png)
 
 ## Psychologie
+Es existieren gewisse psychologische Faktoren die Menschen dazu bringen eher Dinge zu tun ohne dies zu hinterfragen. Dazu zählen u.a.:<br>
+- **Druck/Angst**
+- **Gier**
+- **Vertrauen**
+- **Hilfsbereitschaft**
+- **Autorität**
+- **Lob**
+- **Interesse**
+- **Faulheit**
+- **Scham**
+- **Stolz**
+- **Neid**
+- **Anerkennung**
+
+### Automatische Handlungsmuster
+**Reziprozität**
