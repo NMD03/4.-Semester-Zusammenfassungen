@@ -8,6 +8,9 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [Prozess zum implementieren eines Information Sicherheit Management Systems (ISMS):](#prozess-zum-implementieren-eines-information-sicherheit-management-systems-isms)
 - [KRITS](#krits)
 - [ISO 27001](#iso-27001)
+  - [Anmerkungen](#anmerkungen)
+  - [Inhalt:](#inhalt)
+    - [Deming Circle aka PDCA Cycle:](#deming-circle-aka-pdca-cycle)
 
 # Derzeitige Sicherheitssituation
 Die aktuelle internationale Sicherheitssituation wird so eingeschätzt, dass es ein **hohes Risiko** für **Cyberattacken** gibt. Die aktuell größte Bedrohung stellt **Ransomware** dar. Dabei weitet sich der Scope auf Enterprise Level aus, das heißt es wird versucht alle Daten und Systeme eines gesamten Unternehmens zu verschlüsseln. Der aktuelle State of the Art im Bezug auf Ransomware ist demnach **Human Operated Ransomware**.
@@ -98,3 +101,29 @@ Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
 - alle 2 Jahre Nachweise zu liefern (z.B. ISO 27001)
 
 # ISO 27001
+## Anmerkungen
+- **die Norm ist immer 27001**
+- 27002 -> zeigt nur das das Unternehmen die Richtlinien kennt und sich daran weitesgehend hält
+- 27006 -> Prüfung um Zertifikate ausstellen zu dürfen
+- ISO 27001 definiert ein ISMS welches Information Security unter **Management Kontrolle** stellt
+- **Zertifizierung kann verlangt werden z.B. KRITIS**
+
+## Inhalt:
+
+### Deming Circle aka PDCA Cycle:
+![Deming Cycle](./img/Deming%20Cycle.png)
+  - in der Mitte steht das IT Governance Framework
+  - 4 verschiedene Phasen:
+      - Plan:
+          - Plan erstellen um gewünschte Ergebnisse zu erzielen
+      - Do:
+          - ausführen des Plans
+      - Check:
+          - Daten aus der Do Phase werden evaluiert
+          - u.a. auch Pen testing mit entsprechenden Reports
+      - Act:
+          - auch adjust genannt
+          - hier werden Prozesse verbessert mit den Ergebnissen aus Do und Check -> bessere Standards, Instructions oder Ziele
+  - um langfristig erfolgreich zu sein, sollten nach einem Durchlauf des Deming Cycles neue Standards gesetzt werden
+  ![Continuous Improvement](./img/Continuous%20Improvement.png)
+
