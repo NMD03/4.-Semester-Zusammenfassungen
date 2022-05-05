@@ -43,30 +43,30 @@ Alle diese Schritte werden von einem **menschlichen Operator** überwacht und ge
 - Geheimdienste
 
 # Standardisierung
-mögliche Standards:
-- ISO 27001
-- TISAX (Trusted Information Security Assessment Exchange)
+Mögliche Standards:
+- **ISO 27001**
+- **TISAX** (Trusted Information Security Assessment Exchange)
     - Zertifizierung für Automobilhersteller
-- BSI Standard 200
+- **BSI Standard 200**
 - KRITIS
 - IT-Sicherheitsgestz
 
 ## Prozess zum implementieren eines Information Sicherheit Management Systems (ISMS):
-1. Prozess startet im Top Management:
+1. **Prozess startet im Top Management:**
     - strategische Entscheidungen treffen
     - Scope festlegen
     - policies bestimmen
     - Rollen und Verantwortungen vergeben
-2. Voraussetzungen festlegen z.B. für ISO 27001
-3. Stakeholder bestimmen
-4. ISMS Scope bestimmen -> Scope bestimmt das Management
-5. GAP Analyse ausführen
+2. **Voraussetzungen festlegen z.B. für ISO 27001**
+3. **Stakeholder bestimmen**
+4. **ISMS Scope bestimmen -> Scope bestimmt das Management**
+5. **GAP Analyse ausführen**
     - stellt benötigte Zeit fest
     - derzeitiger Status
     - nötige Verbesserungen
     - benötigtes Kapital
-6. Benötigte Zeit und Kapital abschätzen:
+6. **Benötigte Zeit und Kapital abschätzen:**
     - Standard Projekt Management Aufgabe
-7. Management Approval einholen (schriftlich)
-8. Project starten
+7. **Management Approval einholen (schriftlich)**
+8. **Project starten**
 
