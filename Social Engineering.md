@@ -10,6 +10,8 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Social Enginee
   - [Einordnung von Charakteren](#einordnung-von-charakteren)
     - [Menschentypen](#menschentypen)
     - [DISG Modell](#disg-modell)
+    - [Anpassung des Kommunikationsstils](#anpassung-des-kommunikationsstils)
+  - [Psychologie](#psychologie)
   
 # [Kapitel 1](https://app.mural.co/t/socialengineering4901/m/socialengineering4901/1649020782036/c4bb48a80903b77e09d006c14924b513ad560caa?sender=thomasklir4329)
 
@@ -43,3 +45,13 @@ Modell mit [4 Menschentypen](https://www.youtube.com/watch?v=-IOp9qrjLJU):
 1. Wale
 1. Delfine
 ### DISG Modell
+![DISG-Modell](./img/DISG.png)
+
+### Anpassung des Kommunikationsstils 
+Je nach Gesprächspartner und gewünschter eigener Wirkung auf den Gegenüber sind unterschiedliche Komunikationstils erforderlich. Nach dem oben genannten DISG Modell gilt:
+![Kommunikation mit D](./img/D.png)
+![Kommunikation mit G](./img/G.png)
+![Kommunikation mit I](./img/I.png)
+![Kommunikation mit S](./img/S.png)
+
+## Psychologie
