@@ -6,6 +6,8 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [Schwachstellen im Information Security Managment System (ISMS) und der Cyber Security](#schwachstellen-im-information-security-managment-system-isms-und-der-cyber-security)
 - [Standardisierung](#standardisierung)
   - [Prozess zum implementieren eines Information Sicherheit Management Systems (ISMS):](#prozess-zum-implementieren-eines-information-sicherheit-management-systems-isms)
+- [KRITS](#krits)
+- [ISO 27001](#iso-27001)
 
 # Derzeitige Sicherheitssituation
 Die aktuelle internationale Sicherheitssituation wird so eingeschätzt, dass es ein **hohes Risiko** für **Cyberattacken** gibt. Die aktuell größte Bedrohung stellt **Ransomware** dar. Dabei weitet sich der Scope auf Enterprise Level aus, das heißt es wird versucht alle Daten und Systeme eines gesamten Unternehmens zu verschlüsseln. Der aktuelle State of the Art im Bezug auf Ransomware ist demnach **Human Operated Ransomware**.
@@ -74,3 +76,25 @@ Mögliche Standards:
 7. **Management Approval einholen (schriftlich)**
 8. **Project starten**
 
+# KRITS
+KRITIS steht für **kritische Infrastruktur**. Unter diesen Begriff fällt alles was von Grundlegender Bedeutung für die **Gesellschaft** oder **Wirtschaft** ist, sodass ein Ausfall dieser zu **Lieferengpässen**, **öffentlichem Sicherheitsverlust** oder anderen **dramatische Konsequenzen** führen könnte.
+
+Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
+- Energie
+- Gesundheit
+- IT
+- Transport
+- Medien und Kultur
+- Wasser
+- Finanzen
+- Lebensmitteln
+- Staat
+
+*Note: **KRITIS** sind aufgrund ihrer wichtigkeit zu folgenden Dingen **verpflichtet**:*
+
+- Kontaktierbar zu sein
+- jeden IT Vorfall zu melden
+- State of the Art zu implementieren
+- alle 2 Jahre Nachweise zu liefern (z.B. ISO 27001)
+
+# ISO 27001
