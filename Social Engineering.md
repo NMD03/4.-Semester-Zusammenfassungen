@@ -71,4 +71,10 @@ Es existieren gewisse psychologische Faktoren die Menschen dazu bringen eher Din
 - **Anerkennung**
 
 ### Automatische Handlungsmuster
-**Reziprozität**
+**Reziprozität**<br>
+>Reziprozität bedeutet Gegenseitigkeit oder Wechselbezüglichkeit und stellt ein Grundprinzip menschlichen Handelns dar (auch Prinzip der Gegenseitigkeit).
+
+**Konsistenz**<br>
+>Konsistenz bezeichnet in der Psychologie die Widerspruchsfreiheit des individuellen Verhaltens eines Menschen in sich und im Bezug auf das eigene Selbst, die zeitlich und über Situationen hinweg im Wesentlichen erhalten bleibt. Dabei handelt es sich um eine Verhaltenstendenz und nicht um ein beständiges Persönlichkeitsmerkmal im eigentlichen Sinne, da Personen zwar transsituativ (d. h. über verschiedene Situationen hinweg) hinsichtlich ihres aggregierten Verhaltens in konkreten, vergleichbaren Situationen recht konsistent handeln, sich aber dennoch situationsspezifisch unterschiedlich verhalten können.
+
+**Soziale Bewährtheit**<br>
