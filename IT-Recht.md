@@ -33,6 +33,9 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
     - [§ 7 Allgemeine Grundsätze](#-7-allgemeine-grundsätze)
     - [§ 8 Durchleitung von Informationen](#-8-durchleitung-von-informationen)
     - [§ 9 Zwischenspeicherung zur beschleunigten der Übermittlung von Information](#-9-zwischenspeicherung-zur-beschleunigten-der-übermittlung-von-information)
+    - [§ 10 Speicherung von Informationen](#-10-speicherung-von-informationen)
+  - [Betriebsverfassungsgesetz](#betriebsverfassungsgesetz)
+    - [§ 87 Mitbestimmungsrecht](#-87-mitbestimmungsrecht)
 
 # Derzeitige Sicherheitssituation
 Die aktuelle internationale Sicherheitssituation wird so eingeschätzt, dass es ein **hohes Risiko** für **Cyberattacken** gibt. Die aktuell größte Bedrohung stellt **Ransomware** dar. Dabei weitet sich der Scope auf Enterprise Level aus, das heißt es wird versucht alle Daten und Systeme eines gesamten Unternehmens zu verschlüsseln. Der aktuelle State of the Art im Bezug auf Ransomware ist demnach **Human Operated Ransomware**.
@@ -220,5 +223,13 @@ Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
 - Platform kann nicht für die Inhalte verantwortlich gemacht werden
 
 ### § 8 Durchleitung von Informationen
+- Arbeitgeber sind idR keine Diensteanbieter -> Authentifizierung
 
 ### § 9 Zwischenspeicherung zur beschleunigten der Übermittlung von Information
+
+### § 10 Speicherung von Informationen
+
+## Betriebsverfassungsgesetz
+### § 87 Mitbestimmungsrecht
+- bei Verhaltens- oder Leistungsüberwachung darf Betriebsrat mitbestimmen
+  
