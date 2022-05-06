@@ -14,28 +14,10 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [Zertifizierungsprozess](#zertifizierungsprozess)
 - [Rechtliche Situation in Deutschland](#rechtliche-situation-in-deutschland)
   - [Geschäftsgeheimnisgesetz (GeschGehG)](#geschäftsgeheimnisgesetz-geschgehg)
-    - [§ 1 Anwendungsbereich](#-1-anwendungsbereich)
-    - [§ 2 Begriffsbestimmung](#-2-begriffsbestimmung)
-    - [§ 3 Erlaubte Handlung](#-3-erlaubte-handlung)
-    - [§ 4 Handlungsverbote](#-4-handlungsverbote)
-    - [§ 5 Ausnahmen](#-5-ausnahmen)
     - [Überblick](#überblick)
   - [Telekommunikationsgesetz (TKG)](#telekommunikationsgesetz-tkg)
-    - [§ 1 Zweck des Gesetzes](#-1-zweck-des-gesetzes)
-    - [§ 2 Regulierung, Ziele, Grundsätze](#-2-regulierung-ziele-grundsätze)
-    - [§ 88 Fernmeldegeheimnis](#-88-fernmeldegeheimnis)
-    - [§ 89 Abhörverbot, Geheimhaltungspflicht von Betreibern von Empfangsanlagen](#-89-abhörverbot-geheimhaltungspflicht-von-betreibern-von-empfangsanlagen)
-    - [§ 90 Missbrauch von Sende- oder sonstigen Telekommunikationsanlagen](#-90-missbrauch-von-sende--oder-sonstigen-telekommunikationsanlagen)
-    - [§ 148 Strafvorschriften](#-148-strafvorschriften)
   - [Telemediengesetz (TMG)](#telemediengesetz-tmg)
-    - [§ 1 Anwendungsbereich](#-1-anwendungsbereich-1)
-    - [§ 2 Begriffbestimmungen](#-2-begriffbestimmungen)
-    - [§ 7 Allgemeine Grundsätze](#-7-allgemeine-grundsätze)
-    - [§ 8 Durchleitung von Informationen](#-8-durchleitung-von-informationen)
-    - [§ 9 Zwischenspeicherung zur beschleunigten der Übermittlung von Information](#-9-zwischenspeicherung-zur-beschleunigten-der-übermittlung-von-information)
-    - [§ 10 Speicherung von Informationen](#-10-speicherung-von-informationen)
   - [Betriebsverfassungsgesetz](#betriebsverfassungsgesetz)
-    - [§ 87 Mitbestimmungsrecht](#-87-mitbestimmungsrecht)
 
 # Derzeitige Sicherheitssituation
 Die aktuelle internationale Sicherheitssituation wird so eingeschätzt, dass es ein **hohes Risiko** für **Cyberattacken** gibt. Die aktuell größte Bedrohung stellt **Ransomware** dar. Dabei weitet sich der Scope auf Enterprise Level aus, das heißt es wird versucht alle Daten und Systeme eines gesamten Unternehmens zu verschlüsseln. Der aktuelle State of the Art im Bezug auf Ransomware ist demnach **Human Operated Ransomware**.
@@ -171,11 +153,11 @@ Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
 # Rechtliche Situation in Deutschland
 
 ## Geschäftsgeheimnisgesetz (GeschGehG)
-### § 1 Anwendungsbereich
-### § 2 Begriffsbestimmung 
-### § 3 Erlaubte Handlung 
-### § 4 Handlungsverbote 
-### § 5 Ausnahmen 
+§ 1 Anwendungsbereich
+§ 2 Begriffsbestimmung 
+§ 3 Erlaubte Handlung 
+§ 4 Handlungsverbote 
+§ 5 Ausnahmen 
 1. Presse- und Meinungsfreiheit
 2. Straftatbestand 
 ### Überblick
@@ -184,52 +166,52 @@ Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
 - Reverse Engineering und Whistleblowing wird erlaubt
 
 ## Telekommunikationsgesetz (TKG)
-### § 1 Zweck des Gesetzes
+**§ 1 Zweck des Gesetzes**
 > Zweck dieses Gesetzes ist es, durch technologieneutrale Regulierung den Wettbewerb im Bereich der Telekornmunikabon und Telekommunikationsinfrastrukturen zu fördern und flächendeckend angemessene und ausreichende zu gewährleisten.
-- Wettbewerb fördern
-- Gewährleistung von Dienstleistungen
+- **Wettbewerb fördern**
+- **Gewährleistung von Dienstleistungen**
 
-### § 2 Regulierung, Ziele, Grundsätze
+§ 2 Regulierung, Ziele, Grundsätze
 - Vermeidung von Monopolen
 - keine Wettbewerbsverzerrung
 - Entwicklung des EU-Binnenmarkts
 - gleiche Grundversorgung in Stadt und auf dem Land
 
-### § 88 Fernmeldegeheimnis
+**§ 88 Fernmeldegeheimnis**
 - **Art 10 GG** -> Brief, Post- und Fernmeldegehimnis sind unverletzlich <br>
   *Aber: kein Schutz vor Geheimdienste* -> Erlaubnis zur Überwachung
 - schützt **Kommunikationvorgang an sich** (sobald die Daten abgelegt sind gilt § 88 nicht mehr)
 
-### § 89 Abhörverbot, Geheimhaltungspflicht von Betreibern von Empfangsanlagen
+§ 89 Abhörverbot, Geheimhaltungspflicht von Betreibern von Empfangsanlagen
 - man darf nicht Abhören :joy:
 
-### § 90 Missbrauch von Sende- oder sonstigen Telekommunikationsanlagen
+§ 90 Missbrauch von Sende- oder sonstigen Telekommunikationsanlagen
 - man darf keine Anlagen betreiben, die zum abhören gedacht sind, indem sie **andere Gegenstände vortäuschen** (Fake-Router, O.MG Cable, etc.)
 - öffentliche Kameras im öffentlichen Raum sind erlaubt
 - Smart Home ist nicht verboten
 
-### § 148 Strafvorschriften
+§ 148 Strafvorschriften
 - Freiheitstrafe bis 2 Jahre
 
 ## Telemediengesetz (TMG)
-### § 1 Anwendungsbereich
+**§ 1 Anwendungsbereich**
 - gilt für gespeicherte Daten
 - gilt nicht für Steuerbehörde
 
-### § 2 Begriffbestimmungen
+§ 2 Begriffbestimmungen
 - Arbeitgeber fallen idR nicht unter TMG
 
-### § 7 Allgemeine Grundsätze
+§ 7 Allgemeine Grundsätze
 - Platform kann nicht für die Inhalte verantwortlich gemacht werden
 
-### § 8 Durchleitung von Informationen
+§ 8 Durchleitung von Informationen
 - Arbeitgeber sind idR keine Diensteanbieter -> Authentifizierung
 
-### § 9 Zwischenspeicherung zur beschleunigten der Übermittlung von Information
+§ 9 Zwischenspeicherung zur beschleunigten der Übermittlung von Information
 
-### § 10 Speicherung von Informationen
+§ 10 Speicherung von Informationen
 
 ## Betriebsverfassungsgesetz
-### § 87 Mitbestimmungsrecht
+§ 87 Mitbestimmungsrecht
 - bei Verhaltens- oder Leistungsüberwachung darf Betriebsrat mitbestimmen
   
