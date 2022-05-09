@@ -104,3 +104,4 @@ Einfluss
 **Knappheit**<br>
 - das Knappheitsprinzip besagt, dass Möglichkeiten
 uns umso wertvoller erscheinen, je weniger erreichbar sie sind
+
