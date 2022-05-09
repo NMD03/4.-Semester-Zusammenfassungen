@@ -1,5 +1,5 @@
 # Social Engineering <!-- omit in toc -->
-Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Social Engineering.
+Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung [Social Engineering](https://moodle.dhbw-mannheim.de/pluginfile.php/410370/course/section/57781/30042022.pdf).
 # Inhaltsverzeichnis <!-- omit in toc -->
 - [Kapitel 1](#kapitel-1)
   - [Definitionen](#definitionen)
@@ -31,12 +31,13 @@ Bestehende Vorurteile und Klichees können genutzt werden, um Vertrauen zu gewin
 Beispiele:
 - ältere Menschen
 - sich in Gruppen bewegen
-- Brille -> Intelligenz
-- Kinder
+- Brille: suggeriert eine erhöhte Intelligenz
+- Kinder: suggeriert Unschuldigkeit
 - Business-Kleidung wirkt professionell
 - weiblich sein
 - gleiche ethnische Gruppe
 - Indische IT-nerds
+- Schwangere Frauen: Wer neues Leben erschafft kann nichts böses vorhaben
 
 ## Einordnung von Charakteren
 ### Menschentypen
@@ -46,6 +47,8 @@ Modell mit [4 Menschentypen](https://www.youtube.com/watch?v=-IOp9qrjLJU):
 1. Wale
 1. Delfine
 ### DISG Modell
+DISG ist ein starkes Werkzeug, dass Ihnen hilft Menschen schnell zu lesen, und darauf
+hin Ihren Kommunikationsstil anzupassen.
 ![DISG-Modell](./img/DISG.png)
 
 ### Anpassung des Kommunikationsstils 
@@ -57,13 +60,14 @@ Je nach Gesprächspartner und gewünschter eigener Wirkung auf den Gegenüber si
 
 ## Psychologie
 Es existieren gewisse psychologische Faktoren die Menschen dazu bringen eher Dinge zu tun ohne dies zu hinterfragen. Dazu zählen u.a.:<br>
-- **Druck/Angst**
-- **Gier**
-- **Vertrauen**
-- **Hilfsbereitschaft**
-- **Autorität**
-- **Lob**
-- **Interesse**
+- **Druck/Angst**: : Mögliche **Strafen** werden angedroht, falls eine Handlung ausbleibt oder
+zu spät gehandelt wird - es wird **künstlicher Zeitdruck** erzeugt
+- **Gier**: : Eine **Belohnung, Gewinn** oder sonstige Vorteile werden in Aussicht gestellt
+- **Vertrauen**: Es werden vermeintliche **Gemeinsamkeiten** aufgezeigt, um Vertrauen zu erzeugen um dann nach einem Gefallen zu fragen
+- **Hilfsbereitschaft**: Menschen möchten anderen Menschen gerne gefallen bzw. helfen. Es wird eine **Notsituation** erzeugt, in der das **Opfer helfen kann** - beispielsweise einmal kurz die Tür aufhalten
+- **Autorität**: Der Angreifer nutzt die **Hierarchie** in einem Unternehmen aus. Niemand möchte gerne seinem vermeidlichen Vorgesetzten widersprechen - **Uniformen** haben hier eine besondere Wirkung
+- **Lob**: Das Opfer wird bei seiner **Eitelkeit** gepackt, um Informationen zu erlangen beispielsweise in einem vermeidlichen Experteninterview
+- **Interesse**: Vermeintlich **brisante Informationen** werden in Aussicht gestellt - spannende Inhalte werden angedeutet
 - **Faulheit**
 - **Scham**
 - **Stolz**
@@ -71,8 +75,11 @@ Es existieren gewisse psychologische Faktoren die Menschen dazu bringen eher Din
 - **Anerkennung**
 
 ### Automatische Handlungsmuster
+Um besser mit den unzähligen Entscheidungen umgehen zu können, die wir jeden Tag treffen müssen handeln wir nach sogenannten Faustregeln.<br>
 **Reziprozität**<br>
->Reziprozität bedeutet Gegenseitigkeit oder Wechselbezüglichkeit und stellt ein Grundprinzip menschlichen Handelns dar (auch Prinzip der Gegenseitigkeit).
+>Reziprozität bedeutet **Gegenseitigkeit oder Wechselbezüglichkeit** und stellt ein Grundprinzip menschlichen Handelns dar (auch Prinzip der Gegenseitigkeit).
+- wir fühlen uns dazu verpflichtet uns bei jmd der uns einen gefallen getan hat/uns etwas geschenkt hat zu revanchieren
+- unabhängig von der symphatie für den Gegenüber
 
 **Konsistenz**<br>
 >Konsistenz bezeichnet in der Psychologie die Widerspruchsfreiheit des individuellen Verhaltens eines Menschen in sich und im Bezug auf das eigene Selbst, die zeitlich und über Situationen hinweg im Wesentlichen erhalten bleibt. Dabei handelt es sich um eine Verhaltenstendenz und nicht um ein beständiges Persönlichkeitsmerkmal im eigentlichen Sinne, da Personen zwar transsituativ (d. h. über verschiedene Situationen hinweg) hinsichtlich ihres aggregierten Verhaltens in konkreten, vergleichbaren Situationen recht konsistent handeln, sich aber dennoch situationsspezifisch unterschiedlich verhalten können.
