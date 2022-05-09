@@ -17,6 +17,9 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung [Social Engine
     - [Gehirn](#gehirn)
     - [Alpha- und Beta-Modus](#alpha--und-beta-modus)
     - [Bindungstheorie](#bindungstheorie)
+    - [Oxytocin - The Molecule of Trust](#oxytocin---the-molecule-of-trust)
+    - [Dopamin - The Molecule of More](#dopamin---the-molecule-of-more)
+  - [Grundlage der Kommunikation](#grundlage-der-kommunikation)
   
 # [Kapitel 1](https://app.mural.co/t/socialengineering4901/m/socialengineering4901/1649020782036/c4bb48a80903b77e09d006c14924b513ad560caa?sender=thomasklir4329)
 
@@ -134,3 +137,25 @@ denken Sie rational<br>
 -> es dauert etwa **30 Sekunden** bis Sie nach einer emotionalen Handlung wieder zum logischen Handeln zurückkommen
 
 ### Bindungstheorie
+>Unter dem Begriff Bindung versteht man ein lang andauerndes, affektives Band zu bestimmten Personen, die nicht ohne weiteres auswechselbar sind und deren körperliche und
+psychische Nähe und Unterstützung gesucht wird, wenn z. B. Verunsicherung, Furcht,
+Trauer erlebt wird und Unterstützung benötigt wird
+
+- angeborenes, menschliches Bedürfnis zwischen einem Säugling und seiner primären Bezugsperson (sichert Überleben)
+  
+-> Wenn der Social Engineer also die Bezugsperson überzeugen kann, dass eine Handlung
+oder ein Vorhaben gerechtfertig ist, ist es leichter, die eigentliche Person davon zu überzeugen.
+
+### Oxytocin - The Molecule of Trust
+- Kuschelhormon
+- Oxytocin verbindet uns mit anderen Menschen
+- wird bei **sozialen Bindungen** und **Berührungen** ausgeschüttet
+
+### Dopamin - The Molecule of More
+- **Botenstoff des Glücks und der Belohnung**
+- **Viel Dopamin** macht sich bemerkbar in **Extrovertiertheit** und die dominante Nutzung ist in der **rechten Gehirnhemisphäre**, was wiederum assoziiert wird mit **Kreativität**, **emotionaler Intelligenz**, **Abenteuerlust** und **Risikofreude**
+- **Wenig Dopamin** kann eher zu **introvertiertem Verhalten** führen und die dominante **Gehirnhemisphäre ist die linke**. Was wiederum zu **Logik- und Faktenorientiertheit** führt. Die
+**Sprache ist oft monoton und langsamer** und diese Personen haben eher ein **schlechtes Gedächtnis**
+
+## Grundlage der Kommunikation
+Über **50%** der zwischenmenschlichen Kommunikation findet **non-verbal** statt. 
