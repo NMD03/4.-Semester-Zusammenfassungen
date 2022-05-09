@@ -81,6 +81,26 @@ Um besser mit den unzähligen Entscheidungen umgehen zu können, die wir jeden T
 - unabhängig von der symphatie für den Gegenüber
 
 **Konsistenz**<br>
->Konsistenz bezeichnet in der Psychologie die Widerspruchsfreiheit des individuellen Verhaltens eines Menschen in sich und im Bezug auf das eigene Selbst, die zeitlich und über Situationen hinweg im Wesentlichen erhalten bleibt. Dabei handelt es sich um eine Verhaltenstendenz und nicht um ein beständiges Persönlichkeitsmerkmal im eigentlichen Sinne, da Personen zwar transsituativ (d. h. über verschiedene Situationen hinweg) hinsichtlich ihres aggregierten Verhaltens in konkreten, vergleichbaren Situationen recht konsistent handeln, sich aber dennoch situationsspezifisch unterschiedlich verhalten können.
+>Konsistenz bezeichnet in der Psychologie die **Widerspruchsfreiheit** des individuellen Verhaltens eines Menschen in sich und im Bezug auf das eigene Selbst, die zeitlich und über Situationen hinweg im Wesentlichen erhalten bleibt. 
+- haben wir einmal eine **Entscheidung getroffen**, treten intra- und interpsyschische Vorgänge in Kraft, die uns dazu drängen, **konsistent** zu bleiben
+- die Bindung oder Festlegung auf etwas bezeichnet man in der Sozialpsychologie auch als **Commitment**
+- Ein Commitment ist nur wirksam, wenn es **aktiv**, **öffentlich**, mit **Anstrengungen** verbunden und **freiwillig** ist
 
 **Soziale Bewährtheit**<br>
+>Unter sozialer Bewährtheit versteht man, dass das Verhalten anderer als richtig angenommen und ggf. kopiert bzw. adaptiert wird
+- Soziale Bewährtheit wirkt umso mehr, je **unsicherer** wir uns sind oder je **unklarer** oder **mehrdeutig** die Situation ist
+- Soziale Bewährtheit kann zum sogenannten **kollektiven nicht-sehen-wollen Effekt** führen
+
+**Sympathie**<br>
+- attraktive Menschen werden besonders positive Eigenschaften zugeschrieben (Halo-Effekt)
+- neben der Attraktivität hat auch Ähnlichkeit einen
+Einfluss 
+- Lob und Anerkennung in Form von Komplimenten lässt unser Gegenüber sympathischer erscheinen
+
+**Autorität**<br>
+- Faktoren: Titel, Uniformen und Luxus
+-  Selbstwahrnehmung und Versuchsergebnisse klaffen weit auseinander
+
+**Knappheit**<br>
+- das Knappheitsprinzip besagt, dass Möglichkeiten
+uns umso wertvoller erscheinen, je weniger erreichbar sie sind
