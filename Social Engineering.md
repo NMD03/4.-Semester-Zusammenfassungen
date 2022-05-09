@@ -29,15 +29,14 @@ Durch die fortschreitende digitale Revolution entstehen wachsende Cyber Risiken.
 
 Bestehende Vorurteile und Klichees können genutzt werden, um Vertrauen zu gewinnen oder sich in eine Position oder Rolle zu begeben. <br>
 Beispiele:
-- ältere Menschen
-- sich in Gruppen bewegen
-- Brille: suggeriert eine erhöhte Intelligenz
-- Kinder: suggeriert Unschuldigkeit
-- Business-Kleidung wirkt professionell
-- weiblich sein
-- gleiche ethnische Gruppe
-- Indische IT-nerds
-- Schwangere Frauen: Wer neues Leben erschafft kann nichts böses vorhaben
+- `ältere Menschen`: wirken verletzlich und unschuldig
+- `Brille`: suggeriert eine erhöhte Intelligenz
+- `Kinder`: suggeriert Unschuldigkeit
+- `Business-Kleidung`: wirkt professionell
+- `Frauen`: wirken ungefährlicher
+- `gleiche ethnische Gruppe`: höheres Vertrauen bei gleicher Gruppenzugehörigkeit 
+- `Inder`: IT-nerds
+- `Schwangere Frauen`: Wer neues Leben erschafft kann nichts böses vorhaben
 
 ## Einordnung von Charakteren
 ### Menschentypen
@@ -60,19 +59,19 @@ Je nach Gesprächspartner und gewünschter eigener Wirkung auf den Gegenüber si
 
 ## Psychologie
 Es existieren gewisse psychologische Faktoren die Menschen dazu bringen eher Dinge zu tun ohne dies zu hinterfragen. Dazu zählen u.a.:<br>
-- **Druck/Angst**: : Mögliche **Strafen** werden angedroht, falls eine Handlung ausbleibt oder
+- `Druck/Angst`: : Mögliche **Strafen** werden angedroht, falls eine Handlung ausbleibt oder
 zu spät gehandelt wird - es wird **künstlicher Zeitdruck** erzeugt
-- **Gier**: : Eine **Belohnung, Gewinn** oder sonstige Vorteile werden in Aussicht gestellt
-- **Vertrauen**: Es werden vermeintliche **Gemeinsamkeiten** aufgezeigt, um Vertrauen zu erzeugen um dann nach einem Gefallen zu fragen
-- **Hilfsbereitschaft**: Menschen möchten anderen Menschen gerne gefallen bzw. helfen. Es wird eine **Notsituation** erzeugt, in der das **Opfer helfen kann** - beispielsweise einmal kurz die Tür aufhalten
-- **Autorität**: Der Angreifer nutzt die **Hierarchie** in einem Unternehmen aus. Niemand möchte gerne seinem vermeidlichen Vorgesetzten widersprechen - **Uniformen** haben hier eine besondere Wirkung
-- **Lob**: Das Opfer wird bei seiner **Eitelkeit** gepackt, um Informationen zu erlangen beispielsweise in einem vermeidlichen Experteninterview
-- **Interesse**: Vermeintlich **brisante Informationen** werden in Aussicht gestellt - spannende Inhalte werden angedeutet
-- **Faulheit**
-- **Scham**
-- **Stolz**
-- **Neid**
-- **Anerkennung**
+- `Gier`: : Eine **Belohnung, Gewinn** oder sonstige Vorteile werden in Aussicht gestellt
+- `Vertrauen`: Es werden vermeintliche **Gemeinsamkeiten** aufgezeigt, um Vertrauen zu erzeugen um dann nach einem Gefallen zu fragen
+- `Hilfsbereitschaft`: Menschen möchten anderen Menschen gerne gefallen bzw. helfen. Es wird eine **Notsituation** erzeugt, in der das **Opfer helfen kann** - beispielsweise einmal kurz die Tür aufhalten
+- `Autorität`: Der Angreifer nutzt die **Hierarchie** in einem Unternehmen aus. Niemand möchte gerne seinem vermeidlichen Vorgesetzten widersprechen - **Uniformen** haben hier eine besondere Wirkung
+- `Lob`: Das Opfer wird bei seiner **Eitelkeit** gepackt, um Informationen zu erlangen beispielsweise in einem vermeidlichen Experteninterview
+- `Interesse`: Vermeintlich **brisante Informationen** werden in Aussicht gestellt - spannende Inhalte werden angedeutet
+- `Faulheit`
+- `Scham`
+- `Stolz`
+- `Neid`
+- `Anerkennung`
 
 ### Automatische Handlungsmuster
 Um besser mit den unzähligen Entscheidungen umgehen zu können, die wir jeden Tag treffen müssen handeln wir nach sogenannten Faustregeln.<br>
