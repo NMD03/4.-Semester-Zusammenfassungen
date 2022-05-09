@@ -99,18 +99,18 @@ Um besser mit den unzähligen Entscheidungen umgehen zu können, die wir jeden T
 - Soziale Bewährtheit kann zum sogenannten **kollektiven nicht-sehen-wollen Effekt** führen
 
 **Sympathie**<br>
-- attraktive Menschen werden besonders positive Eigenschaften zugeschrieben (Halo-Effekt)
-- neben der Attraktivität hat auch Ähnlichkeit einen
+- **attraktive Menschen** werden besonders positive Eigenschaften zugeschrieben (Halo-Effekt)
+- neben der Attraktivität hat auch **Ähnlichkeit** einen
 Einfluss 
-- Lob und Anerkennung in Form von Komplimenten lässt unser Gegenüber sympathischer erscheinen
+- Lob und Anerkennung in Form von **Komplimenten** lässt unser Gegenüber sympathischer erscheinen
 
 **Autorität**<br>
-- Faktoren: Titel, Uniformen und Luxus
+- Faktoren: **Titel, Uniformen** und **Luxus**
 -  Selbstwahrnehmung und Versuchsergebnisse klaffen weit auseinander
 
 **Knappheit**<br>
 - das Knappheitsprinzip besagt, dass Möglichkeiten
-uns umso wertvoller erscheinen, je weniger erreichbar sie sind
+uns umso **wertvoller** erscheinen, je **weniger erreichbar** sie sind
 
 ## Biologische Grundlagen
 ### Gehirn
@@ -119,7 +119,7 @@ Das gehrin kann grob in 3 größere teilbereiche unterteilt werden:
 2. Limbisches System
 3. Stammhirn
 
--> im Mittelpunkt beim SE steht in der Regel das Limbische System, da es reflexartig und unmittelbar reagiert und somit aufrichtige Reaktionen auslöst
+-> im Mittelpunkt beim SE steht in der Regel das **Limbische System**, da es **reflexartig und unmittelbar** reagiert und somit **aufrichtige Reaktionen** auslöst
 
 ### Alpha- und Beta-Modus
 Man unterscheidet zwischen 2 Modi in dem sich das gehirn befinden kann:<br>
@@ -138,17 +138,15 @@ denken Sie rational<br>
 
 ### Bindungstheorie
 >Unter dem Begriff Bindung versteht man ein lang andauerndes, affektives Band zu bestimmten Personen, die nicht ohne weiteres auswechselbar sind und deren körperliche und
-psychische Nähe und Unterstützung gesucht wird, wenn z. B. Verunsicherung, Furcht,
-Trauer erlebt wird und Unterstützung benötigt wird
+psychische Nähe und Unterstützung gesucht wird, wenn z. B. **Verunsicherung, Furcht, Trauer** erlebt wird und **Unterstützung benötigt** wird
 
 - angeborenes, menschliches Bedürfnis zwischen einem Säugling und seiner primären Bezugsperson (sichert Überleben)
   
--> Wenn der Social Engineer also die Bezugsperson überzeugen kann, dass eine Handlung
-oder ein Vorhaben gerechtfertig ist, ist es leichter, die eigentliche Person davon zu überzeugen.
+-> Wenn der Social Engineer also die **Bezugsperson überzeugen** kann, dass eine Handlung oder ein Vorhaben gerechtfertig ist, ist es leichter, die eigentliche Person davon zu überzeugen.
 
 ### Oxytocin - The Molecule of Trust
-- Kuschelhormon
-- Oxytocin verbindet uns mit anderen Menschen
+- **Kuschelhormon**
+- Oxytocin **verbindet** uns mit anderen Menschen
 - wird bei **sozialen Bindungen** und **Berührungen** ausgeschüttet
 
 ### Dopamin - The Molecule of More
