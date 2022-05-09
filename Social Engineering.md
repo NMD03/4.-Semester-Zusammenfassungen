@@ -13,6 +13,10 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung [Social Engine
     - [Anpassung des Kommunikationsstils](#anpassung-des-kommunikationsstils)
   - [Psychologie](#psychologie)
     - [Automatische Handlungsmuster](#automatische-handlungsmuster)
+  - [Biologische Grundlagen](#biologische-grundlagen)
+    - [Gehirn](#gehirn)
+    - [Alpha- und Beta-Modus](#alpha--und-beta-modus)
+    - [Bindungstheorie](#bindungstheorie)
   
 # [Kapitel 1](https://app.mural.co/t/socialengineering4901/m/socialengineering4901/1649020782036/c4bb48a80903b77e09d006c14924b513ad560caa?sender=thomasklir4329)
 
@@ -105,3 +109,28 @@ Einfluss
 - das Knappheitsprinzip besagt, dass Möglichkeiten
 uns umso wertvoller erscheinen, je weniger erreichbar sie sind
 
+## Biologische Grundlagen
+### Gehirn
+Das gehrin kann grob in 3 größere teilbereiche unterteilt werden:
+1. Großhirnrinde
+2. Limbisches System
+3. Stammhirn
+
+-> im Mittelpunkt beim SE steht in der Regel das Limbische System, da es reflexartig und unmittelbar reagiert und somit aufrichtige Reaktionen auslöst
+
+### Alpha- und Beta-Modus
+Man unterscheidet zwischen 2 Modi in dem sich das gehirn befinden kann:<br>
+**Alpha-Modus**
+- 8 bis 13 cps (Zyklen pro Sekunde)
+- entspannt/Tagträumen
+
+**Beta-Modus**
+- 14 bis 100 cps
+-  wach, aufmerksam
+
+-> SE macht sich idR **Alpha Modus** zu nutze<br>
+-> Je mehr **Emotionen** dabei ausgelöst werden, desto weniger
+denken Sie rational<br>
+-> es dauert etwa **30 Sekunden** bis Sie nach einer emotionalen Handlung wieder zum logischen Handeln zurückkommen
+
+### Bindungstheorie
