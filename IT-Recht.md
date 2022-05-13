@@ -6,12 +6,13 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [Schwachstellen im Information Security Managment System (ISMS) und der Cyber Security](#schwachstellen-im-information-security-managment-system-isms-und-der-cyber-security)
 - [Standardisierung](#standardisierung)
   - [Prozess zum implementieren eines Information Sicherheit Management Systems (ISMS):](#prozess-zum-implementieren-eines-information-sicherheit-management-systems-isms)
-- [KRITS](#krits)
+- [KRITIS](#kritis)
 - [ISO 27001](#iso-27001)
   - [Anmerkungen](#anmerkungen)
   - [Inhalt:](#inhalt)
     - [Deming Circle aka PDCA Cycle:](#deming-circle-aka-pdca-cycle)
   - [Zertifizierungsprozess](#zertifizierungsprozess)
+- [BSI 200](#bsi-200)
 - [Ausländisches Datenschutzrecht](#ausländisches-datenschutzrecht)
   - [Türkei](#türkei)
   - [Brasilien](#brasilien)
@@ -106,7 +107,7 @@ Mögliche Standards:
 7. **Management Approval einholen (schriftlich)**
 8. **Project starten**
 
-# KRITS
+# KRITIS
 KRITIS steht für **kritische Infrastruktur**. Unter diesen Begriff fällt alles was von Grundlegender Bedeutung für die **Gesellschaft** oder **Wirtschaft** ist, sodass ein Ausfall dieser zu **Lieferengpässen**, **öffentlichem Sicherheitsverlust** oder anderen **dramatische Konsequenzen** führen könnte.
 
 Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
@@ -169,6 +170,27 @@ Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
 6. On-going Audits:
     - zusätzliche Audits
     - alle 6 oder 12 Monate
+
+# BSI 200
+Unter teilung in 5 Bestandteile:
+1. BSI-Standard 200-1
+   - ISMS:
+     - Sicherheitsstrategie ist zentraler Bestandteil des ISMS (Strategei immer Teil der Firmenpolitik)
+     - Lebenszyklus nach Deming-Zyklus
+2. BSI-Standard 200-2
+   - IT-Grundschutz-Methodik:
+     - Unterteilung in Kern, Basis und Standard Absicherung: ![](./img/BSI%20Schutzbedarf.png)
+     - Schutzbedarfsermittlung wird mit dem Managment durchgeführt -> Managment entscheidet
+     - bildet Schnittstelle zur Management Ebene
+3. BSI-Standard 200-3
+   - Risiko Analyse
+4. BSI-Standard 200-4
+   - Notfallmanagement
+5. BSI IT-Grundschutz-Kompendium
+
+Zusammenfassung:<br>
+![](./img/BSI%20Standard.png)
+
 
 # Ausländisches Datenschutzrecht
 ## Türkei
