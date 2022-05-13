@@ -12,12 +12,18 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [Inhalt:](#inhalt)
     - [Deming Circle aka PDCA Cycle:](#deming-circle-aka-pdca-cycle)
   - [Zertifizierungsprozess](#zertifizierungsprozess)
+- [Ausländisches Datenschutzrecht](#ausländisches-datenschutzrecht)
+  - [China](#china)
 - [Rechtliche Situation in Deutschland](#rechtliche-situation-in-deutschland)
   - [Geschäftsgeheimnisgesetz (GeschGehG)](#geschäftsgeheimnisgesetz-geschgehg)
     - [Überblick](#überblick)
   - [Telekommunikationsgesetz (TKG)](#telekommunikationsgesetz-tkg)
   - [Telemediengesetz (TMG)](#telemediengesetz-tmg)
   - [Betriebsverfassungsgesetz](#betriebsverfassungsgesetz)
+  - [BSI Gesetz (BSIG)](#bsi-gesetz-bsig)
+- [Internationale Rechtssituation](#internationale-rechtssituation)
+  - [China](#china-1)
+  - [USA](#usa)
 
 # Derzeitige Sicherheitssituation
 Die aktuelle internationale Sicherheitssituation wird so eingeschätzt, dass es ein **hohes Risiko** für **Cyberattacken** gibt. Die aktuell größte Bedrohung stellt **Ransomware** dar. Dabei weitet sich der Scope auf Enterprise Level aus, das heißt es wird versucht alle Daten und Systeme eines gesamten Unternehmens zu verschlüsseln. Der aktuelle State of the Art im Bezug auf Ransomware ist demnach **Human Operated Ransomware**.
@@ -150,6 +156,9 @@ Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
     - zusätzliche Audits
     - alle 6 oder 12 Monate
 
+# Ausländisches Datenschutzrecht
+## China 
+
 # Rechtliche Situation in Deutschland
 
 ## Geschäftsgeheimnisgesetz (GeschGehG)
@@ -215,3 +224,38 @@ Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
 § 87 Mitbestimmungsrecht
 - bei Verhaltens- oder Leistungsüberwachung darf Betriebsrat mitbestimmen
   
+## BSI Gesetz (BSIG)
+§ 1 Bundesamt für Sicherheit in der Informationstechnik
+- zuständig auf nationaler Ebene
+
+§ 3 Aufgaben des Bundesamtes
+- im öffentlchen Interesse
+- Funktionssicherheit der Bundesbehörden
+- unterstützt Behörden (Strafverfolgung, Sicherheitsdienste)
+
+§ 3a Verarbeitung personenbezogener Daten
+- Daten verarbeitung zulässig wenn öffentliches Interesse im Vordergrund steht
+- Bundesamt darf Zweck für Datenerhebung ggf ändern
+
+§ 4 Zentrale Meldestelle für die Sicherheit in der Informationstechnik des Bundes
+
+§ 5 Abwehr von Schadprogrammen und Gefahren für die Kommunikationstechnik des Bundes
+
+§ 8a Sicherheit in der Informationstechnik Kritischer Infrastruktur
+- KRITIS -> Verfügbarkeit oberstes Schutzziel
+
+§ 823 Schadensersatzpflicht
+
+# Internationale Rechtssituation
+
+## China 
+- ISMS wird von allen Unternehmen gefordert
+- wenn man als Unternehmen CyberSecurity Anwendungen verwendet muss man von China lizensierte Software installieren 
+
+## USA
+NIST 800-171 Protection Controlled Unclassified Information <br>
+
+National Defense Authorization Act
+- sobald eine Behörde ein Unternehmen beauftragt, muss die Behörde sicher gehen, dass diese keine **Huawei Technolgie** oder **ZTE Geräte** verwenden (Handelskrieg)
+- selbes gilt für **Hikvision**, **Hytera** und **Dahua**
+- keine Beauftragung von militärrelevanten Unternehmen in China
