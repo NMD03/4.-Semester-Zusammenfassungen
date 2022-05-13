@@ -13,6 +13,11 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
     - [Deming Circle aka PDCA Cycle:](#deming-circle-aka-pdca-cycle)
   - [Zertifizierungsprozess](#zertifizierungsprozess)
 - [Ausländisches Datenschutzrecht](#ausländisches-datenschutzrecht)
+  - [Türkei](#türkei)
+  - [Brasilien](#brasilien)
+  - [Russland](#russland)
+  - [Thailand](#thailand)
+  - [USA](#usa)
   - [China](#china)
 - [Rechtliche Situation in Deutschland](#rechtliche-situation-in-deutschland)
   - [Geschäftsgeheimnisgesetz (GeschGehG)](#geschäftsgeheimnisgesetz-geschgehg)
@@ -23,7 +28,7 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [BSI Gesetz (BSIG)](#bsi-gesetz-bsig)
 - [Internationale Rechtssituation](#internationale-rechtssituation)
   - [China](#china-1)
-  - [USA](#usa)
+  - [USA](#usa-1)
   - [Open Source](#open-source)
     - [Copyright/Copyleft](#copyrightcopyleft)
 - [Workshop Legal Situation](#workshop-legal-situation)
@@ -166,7 +171,50 @@ Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
     - alle 6 oder 12 Monate
 
 # Ausländisches Datenschutzrecht
+## Türkei
+- KVKK
+- nahe an der DSGVO
+- es wird kein Datenschutzbeauftragter benötigt
+- Verfahren müssen in Verbis (staatliches Portal) registriert werden
+- Strafen sind geringer als in der EU
+
+## Brasilien
+- nahe an DSGVO
+- Datenverarbeitung um Kreditwürdigkeit zu prüfen ist erlaubt
+- STrafen sind geringer als in der EU
+  
+## Russland
+- keine Unterscheidung in Controller und Processor
+- Datenschutzbeauftragter muss interner sein
+- personenebezogene Daten von russischen Stattsbürgern dürfen nur in Russland verarbeitet werden
+- Datenverarbeitung muss in Roskomnadzor registriert werden
+- harte Strafen bei verstößen:
+  - bis zu 300.000 Rubel
+  - entzug der Geschäftserlaubnis bis zu 3 Monate
+  - blocken für bestimmte Positionen und Aktivitäten für bis zu 5 Jahren
+  
+## Thailand
+- PDPA
+- nahe an der DSGVO
+- gerningere Strafen
+- schriftliches Einverständnis ist erforderlich
+- ab 10 Jahre selbst verantwortlich
+- Recht auf Löschung eingeschränkter
+- keine Verraussetzungen im Bezug auf Privacy and Security by design
+  
+## USA
+- verschiedene Regulierungen gelten
+- Vorreiter: California, Colorado, Virgina
+- Privacy Shield nicht mehr als alleinige Vorraussetzung für Datentransfer in die USA zulässig (aus der EU)
+
 ## China 
+- Chinese Cybersecurity Law
+- Zustimmung eines Mitarbeiters wird benötigt um Daten zu verarbeiten (Contract + Consent)
+- Privacy Law -> PIPL
+- für Cross Border Transaction immer Zustimmung einholen
+- generell Ansprechpartner in China wird benötigt
+- Staat will Zugriff auf Rechner für personenebezogene Daten
+
 
 # Rechtliche Situation in Deutschland
 
