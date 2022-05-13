@@ -13,6 +13,8 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
     - [Deming Circle aka PDCA Cycle:](#deming-circle-aka-pdca-cycle)
   - [Zertifizierungsprozess](#zertifizierungsprozess)
 - [BSI 200](#bsi-200)
+  - [Inhalt](#inhalt-1)
+  - [Zusammenfassung:](#zusammenfassung)
 - [Ausländisches Datenschutzrecht](#ausländisches-datenschutzrecht)
   - [Türkei](#türkei)
   - [Brasilien](#brasilien)
@@ -172,7 +174,8 @@ Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
     - alle 6 oder 12 Monate
 
 # BSI 200
-Unter teilung in 5 Bestandteile:
+## Inhalt
+Unterteilung in 5 Bestandteile:
 1. BSI-Standard 200-1
    - ISMS:
      - Sicherheitsstrategie ist zentraler Bestandteil des ISMS (Strategei immer Teil der Firmenpolitik)
@@ -188,7 +191,7 @@ Unter teilung in 5 Bestandteile:
    - Notfallmanagement
 5. BSI IT-Grundschutz-Kompendium
 
-Zusammenfassung:<br>
+## Zusammenfassung:
 ![](./img/BSI%20Standard.png)
 
 
