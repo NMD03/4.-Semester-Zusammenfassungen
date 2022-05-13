@@ -20,6 +20,7 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung [Social Engine
     - [Oxytocin - The Molecule of Trust](#oxytocin---the-molecule-of-trust)
     - [Dopamin - The Molecule of More](#dopamin---the-molecule-of-more)
   - [Grundlage der Kommunikation](#grundlage-der-kommunikation)
+  - [Exkurs - Headhunting](#exkurs---headhunting)
   
 # [Kapitel 1](https://app.mural.co/t/socialengineering4901/m/socialengineering4901/1649020782036/c4bb48a80903b77e09d006c14924b513ad560caa?sender=thomasklir4329)
 
@@ -157,3 +158,10 @@ psychische Nähe und Unterstützung gesucht wird, wenn z. B. **Verunsicherung, F
 
 ## Grundlage der Kommunikation
 Über **50%** der zwischenmenschlichen Kommunikation findet **non-verbal** statt. 
+
+## Exkurs - Headhunting
+
+> Dienstleistung zur Besetzung von vakanten Führungs- und Spezialistenfunktionen
+
+
+
