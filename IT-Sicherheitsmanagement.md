@@ -14,6 +14,17 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung [IT-Sicherheit
   - [Information](#information)
   - [Sicherheit](#sicherheit)
   - [Management System](#management-system)
+- [Schutzziele (CIA-Triad)](#schutzziele-cia-triad)
+  - [Schutzbedarf](#schutzbedarf)
+- [Security Patterns](#security-patterns)
+  - [AAA](#aaa)
+  - [Layering](#layering)
+  - [Abstraction](#abstraction)
+  - [Data Hiding](#data-hiding)
+  - [Encription](#encription)
+  - [Zero Trust](#zero-trust)
+  - [Security by Obscurity](#security-by-obscurity)
+- [Risikomanagement](#risikomanagement)
 
 # [Der Fall Buchbinder](https://app.mural.co/t/muralworkspace0660/m/muralworkspace0660/1649403544278/ca053bed349485fd3eb457c9abc74d249721bb3c?sender=u97fae70e91dca3860c9e8161)
 
@@ -39,6 +50,7 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung [IT-Sicherheit
 | |VPN-verbindung zum Server aufbauen|
 | |Generelle Schulung der Mitarbeiter|
 
+*Update: Buchbinder hat keine Strafe bekommen (zu wenig Daten und keine rechtswidrige Nutzung)*
 # Exkurs: [ISMS-Vergleich](https://app.mural.co/t/muralworkspace0660/m/muralworkspace0660/1650627698169/6c1698b2f4ecc70b2a05bb37584d6326040b7ca0?sender=ub64e6270e8be28f188f38372)
 
 ## ISO 27002:2013
@@ -53,7 +65,7 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung [IT-Sicherheit
 # Exkurs: [S-Protect](https://app.mural.co/t/muralworkspace0660/m/muralworkspace0660/1651821857612/2f18d6ec811388f090a85ebc6bc3fd93d7f257c6?sender=u97fae70e91dca3860c9e8161)
 |Pro|Contra|
 |---|---|
-|weniger Phsising anfällig|suggeriert absolute Sicherheit
+|weniger Phising anfällig|suggeriert absolute Sicherheit
 |auf aktuellen OS verfügbar|zusätzliches Tool, welches geupdated werden muss
 |keine Kosten|keine Auskunft über technische Details
 | einfache Bedienung|keine Zertifikate|
@@ -84,8 +96,58 @@ Defionition:
 
 **Unterteilung verschiedner Bereiche der Sicherheit:**
 ![](./img/Risiken.png)
+- Informations-Sicherheit
+- IT-Sicherheit
+- Cyber-Sicherheit
 
 ## Management System
 ![Ebene](./img/Ebenen.png)
 - Vorgehen nach Demingkreis (PDCA) und SDCA-Zyklus siehe [Deming Circle IT-Recht](IT-Recht.md#deming-circle-aka-pdca-cycle)
 
+# [Schutzziele (CIA-Triad)](https://app.mural.co/t/muralworkspace0660/m/muralworkspace0660/1652434874706/0c61404c94c2cb92e73831f6d505367de5c5c428?sender=u97fae70e91dca3860c9e8161)
+1. Confedentiality
+1. Integrity
+1. Availibility
+   
+![CIA](./img/CIA.png)
+
+## Schutzbedarf
+- Schutzbedarf erhöht sich von oben nach unten 
+  
+![Schutzbedarf](./img/Schutzbedarf.png)
+
+# Security Patterns
+- Muster die man immer wieder antrifft
+
+## AAA
+1. Identification
+2. Authentication/Authorization
+3. Accounting/Auditing
+
+## Layering
+- Auch Onion Model genannt
+  ![](./img/Onion.png)
+- Überlappende Sicherheitskonzepte
+
+## Abstraction
+- vorallem im Berechtigungsmangement
+- Zusammenfassung von Gemeinsamkeiten
+- Role besed Access
+- Zonenemodell
+
+## Data Hiding
+- vorallem in der Programmierung (public, private, etc.)
+
+## Encription
+- Verschlüsselung von Daten
+
+## Zero Trust
+- immer wieder authentifizieren
+- hinzunahme von weiteren Faktoren (z.B. IP)
+- Sessionzeiten verkürzen
+
+## Security by Obscurity
+- Beispiele: Schlüssel unter der Fußmatte
+  
+# [Risikomanagement](https://app.mural.co/t/muralworkspace0660/m/muralworkspace0660/1652441583133/62a9286e82283c208db2a3c26a0bbc766c154e68?sender=u97fae70e91dca3860c9e8161)
+Risiko = Threat * Vulnerability
