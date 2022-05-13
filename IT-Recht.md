@@ -24,6 +24,8 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
 - [Internationale Rechtssituation](#internationale-rechtssituation)
   - [China](#china-1)
   - [USA](#usa)
+  - [Open Source](#open-source)
+    - [Copyright/Copyleft](#copyrightcopyleft)
 
 # Derzeitige Sicherheitssituation
 Die aktuelle internationale Sicherheitssituation wird so eingeschätzt, dass es ein **hohes Risiko** für **Cyberattacken** gibt. Die aktuell größte Bedrohung stellt **Ransomware** dar. Dabei weitet sich der Scope auf Enterprise Level aus, das heißt es wird versucht alle Daten und Systeme eines gesamten Unternehmens zu verschlüsseln. Der aktuelle State of the Art im Bezug auf Ransomware ist demnach **Human Operated Ransomware**.
@@ -249,8 +251,8 @@ Konkret zählen Organisationen aus folgenden Sektoren zur KRITIS:
 # Internationale Rechtssituation
 
 ## China 
-- ISMS wird von allen Unternehmen gefordert
-- wenn man als Unternehmen CyberSecurity Anwendungen verwendet muss man von China lizensierte Software installieren 
+- **ISMS** wird von allen Unternehmen gefordert
+- wenn man als Unternehmen CyberSecurity Anwendungen verwendet muss man von **China lizensierte Software** installieren 
 
 ## USA
 NIST 800-171 Protection Controlled Unclassified Information <br>
@@ -259,3 +261,29 @@ National Defense Authorization Act
 - sobald eine Behörde ein Unternehmen beauftragt, muss die Behörde sicher gehen, dass diese keine **Huawei Technolgie** oder **ZTE Geräte** verwenden (Handelskrieg)
 - selbes gilt für **Hikvision**, **Hytera** und **Dahua**
 - keine Beauftragung von militärrelevanten Unternehmen in China
+
+## Open Source
+![](./img/open%20source.png)
+### Copyright/Copyleft
+![](./img/Copyright.png)
+- Copyright/left -> der Rechtebesitzer kann im Falle eines Schadens herangezogen werden
+- kein Copyright/left -> niemand ist im Falle eines Schadens verantwortlich
+
+**Copyleft**
+- **source code ist frei** verfügbar
+- software wird trzd. **verkauft**
+
+**Lizenzen**
+![](./img/Lizenzen.png)
+
+**Open Source in Unternehmen**<br>
+|Pros|Cons|
+|---|---|
+|No direct License Cost|Possible License Fees for commercial use|
+|High Documentation Quality|Full liability|
+|Community-Driven Support|Missing professional support|
+|Open for Customizing|Missing SLAs|
+|No “hidden code”|Missing product Lifecycle (bzw. kann sich schnell ändern)|
+
+-> Cons müssen kompensiert werden<br>
+-> oft teurer als kommerzielle Software
