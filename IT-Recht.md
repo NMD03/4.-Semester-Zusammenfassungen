@@ -26,6 +26,13 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [USA](#usa)
   - [Open Source](#open-source)
     - [Copyright/Copyleft](#copyrightcopyleft)
+- [Workshop Legal Situation](#workshop-legal-situation)
+  - [Zugriff auf Internet Access Protocol eines Mitarbeiters](#zugriff-auf-internet-access-protocol-eines-mitarbeiters)
+  - [Zugriff auf persönliche Mailbox](#zugriff-auf-persönliche-mailbox)
+  - [Zugriff auf funktionale Mailbox](#zugriff-auf-funktionale-mailbox)
+  - [Computer Transaction Logs von Mitarbeitern](#computer-transaction-logs-von-mitarbeitern)
+  - [Bulletproof Hoster](#bulletproof-hoster)
+  - [Sanktionskatalog für Disziplinarprozess für ISO27001](#sanktionskatalog-für-disziplinarprozess-für-iso27001)
 
 # Derzeitige Sicherheitssituation
 Die aktuelle internationale Sicherheitssituation wird so eingeschätzt, dass es ein **hohes Risiko** für **Cyberattacken** gibt. Die aktuell größte Bedrohung stellt **Ransomware** dar. Dabei weitet sich der Scope auf Enterprise Level aus, das heißt es wird versucht alle Daten und Systeme eines gesamten Unternehmens zu verschlüsseln. Der aktuelle State of the Art im Bezug auf Ransomware ist demnach **Human Operated Ransomware**.
@@ -274,6 +281,7 @@ National Defense Authorization Act
 - software wird trzd. **verkauft**
 
 **Lizenzen**
+
 ![](./img/Lizenzen.png)
 
 **Open Source in Unternehmen**<br>
@@ -285,5 +293,37 @@ National Defense Authorization Act
 |Open for Customizing|Missing SLAs|
 |No “hidden code”|Missing product Lifecycle (bzw. kann sich schnell ändern)|
 
--> Cons müssen kompensiert werden<br>
--> oft teurer als kommerzielle Software
+-> **Cons** müssen **kompensiert** werden<br>
+-> oft **teurer als kommerzielle Software**
+
+# Workshop Legal Situation
+## Zugriff auf Internet Access Protocol eines Mitarbeiters
+- **Betriebsrat** einbinden
+- **Datenschutzbeauftragter**
+- guter Grund: **Straftatbestand** (schriftliche Anweisung) sonst meist nicht
+
+## Zugriff auf persönliche Mailbox
+- Wenn:
+  - der **Besitzer zustimmt**
+  - eine **Privatnutzung explizit untersagt** wurde
+  - wenn die **Firma sich verteidigen** muss (der eigentliche Mitarbeiter steht im Hintergrund/ es geht primär um den eigentlichen Inhalt der E-Mails)
+
+## Zugriff auf funktionale Mailbox
+- Wenn:
+  - Anweisung von der **Führungsetage**
+- Mailbox um z.B. Zoll abzuwickeln -> nur **dienstlich**
+- Datenschutz im Hintergrund
+
+## Computer Transaction Logs von Mitarbeitern
+- Wenn:
+  - guter Grund
+
+## Bulletproof Hoster
+- generell **nicht strafbar**
+- Bezug auf [**TMG**](#rechtliche-situation-in-deutschland) -> Diensteanbieter ist für Inhalte nicht verantwortlich es sei denn dieser kann diese aktiv beeinflussen 
+
+## Sanktionskatalog für Disziplinarprozess für ISO27001
+- Sanktionskatalog ist nach **DSGVO Art.32** eine **Maßnahme**
+- ist aber **DSGVO konform**
+- Ist der **Inhalt des Katalogs** angemessen?
+- Statt eines Sanktionskatalogs schriftlich festhalten, dass im Falle eines Vorfalls ein **disziplinar-Verfahren** angestoßen wird (Personalabteilung)
