@@ -109,6 +109,12 @@ Mögliche Standards:
 7. **Management Approval einholen (schriftlich)**
 8. **Project starten**
 
+# Information Security Ziele
+1) Vertraulichkeit: Daten vor unauthorisierten Zugriffen und Einsichten schützen
+2) Integrität: Korrektheit und vollständigkiet der Daten während ihres gesamten Lebenszyklus sichern
+3) Verfügbarkeit: Sicherstellung der Verfügbarkeit 
+
+
 # KRITIS
 KRITIS steht für **kritische Infrastruktur**. Unter diesen Begriff fällt alles was von Grundlegender Bedeutung für die **Gesellschaft** oder **Wirtschaft** ist, sodass ein Ausfall dieser zu **Lieferengpässen**, **öffentlichem Sicherheitsverlust** oder anderen **dramatische Konsequenzen** führen könnte.
 
