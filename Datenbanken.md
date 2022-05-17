@@ -8,7 +8,7 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
     - [Datum](#datum)
     - [Stringfunktionen](#stringfunktionen)
     - [Aggregatsfunktionen](#aggregatsfunktionen)
-    - [Top](#top)
+    - [LIMIT](#limit)
     - [Distinct](#distinct)
   - [CASE (SELECT ohne Tabelle)](#case-select-ohne-tabelle)
     - [Aufbau](#aufbau-1)
@@ -32,7 +32,10 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
   - [INSERT](#insert)
   - [UPDATE](#update)
   - [DELETE](#delete)
+  - [CREATE TABLE](#create-table)
+  - [ALTER](#alter)
   - [CTEs](#ctes)
+- [ERM Diagramme](#erm-diagramme)
 - [Tools](#tools)
   - [Data Grip](#data-grip)
   - [Q-Gis](#q-gis)
@@ -87,10 +90,10 @@ Eine kleine Zusammenfassung der wichtigsten Befehle und Funktionen in SQL (Struc
 - Minimalwert: ``SELECT MIN()``
 - Maximalwert: ``SELECT MAX()``
 - Durschnitt: ``SELECT AVG()``
-### Top
+### LIMIT
 ``` sql
-SELECT TOP 4 Name, Partei
-FROM Politiker
+SELECT Name, Partei
+FROM Politiker LIMIT 4
 ```
 --> Die ersten 4 Namen der Poltiker mit der entsprechenden Partei werden ausgegeben
 ### Distinct
@@ -222,9 +225,63 @@ FULL JOIN Partei ON Politiker.Partei = Partei.ID
 ![full join](./img/full%20join.png)
 
 ## INSERT
+Erstellt neuen Datensatz in einer Tabelle:
+```sql
+INSERT INTO <Tabelle> (<Spalten>) VALUES (<Werte>)
+```
+oder 
+```sql
+INSERT INTO <Tabelle> VALUES (<Werte>)
+```
 ## UPDATE
+Verändert einen bestehenden Datensatz
+```sql
+UPDATE <Tabelle> SET <Spalte> = <neuer_Wert>
+```
+-> verändert alle Werte einer Spalte daher:
+```sql
+UPDATE <Tabelle> SET <Spalte> = <neuer_Wert> WHERE <Bedingung>
+```
 ## DELETE
+Löscht Datensätze aus Tabellen:
+```sql
+DELETE FROM  <Tabelle> WHERE <Bedingung>
+```
+-> ohne WHERE wird die komplette Tabelle gelöscht
+
+## CREATE TABLE
+Erstellt neuen Tabellen:
+```sql
+CREATE TABLE <Tebellenname>(
+  <Spaltenname01><Datentyp>,
+  <Spaltenname02><Datentyp>,
+  ...
+);
+```
+**Datentypen:**
+- INTEGER
+- TEXT
+- DATE
+
+## ALTER
+Verändert ganze Spalten von Tabellen:
+1. Löscht Spalte:
+   ```sql
+   ALTER TABLE <Tabelle> DROP COLUMN <Spalte>;
+   ```
+2. Fügt Spalte hinzu:
+   ```sql
+   ALTER TABLE <Tabelle> ADD <Spalte> <Datentyp>;
+   ```
+3. Verändert Spalte:
+   ```sql
+   ALTER TABLE <Tabelle> CHANGE COLUMN <AlterName> <NeuerName> <Datentyp>;
+   ```
+   
 ## CTEs
+
+
+# ERM Diagramme
 
 # Tools
 ## Data Grip
