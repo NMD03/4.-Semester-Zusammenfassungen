@@ -7,6 +7,9 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
     - [Berechnungen](#berechnungen)
     - [Datum](#datum)
     - [Stringfunktionen](#stringfunktionen)
+  - [CASE (SELECT ohne Tabelle)](#case-select-ohne-tabelle)
+    - [Aufbau](#aufbau-1)
+    - [Beispiele](#beispiele)
   - [JOIN](#join)
   - [CTEs](#ctes)
 - [Tools](#tools)
@@ -61,6 +64,22 @@ Eine kleine Zusammenfassung der wichtigsten Befehle und Funktionen in SQL (Struc
 - Ersetzen: ``SELECT REPLACE('Hier steht Text', 'steht', 'stand')`` 
 - Trimmen: ``SELECT TRIM(' Leerzeichen vorne und hinten ')``
 - Länge ermitteln: ``SELECT LEN('Beispieltext')``
+
+## CASE (SELECT ohne Tabelle)
+### Aufbau
+``` sql
+CASE 
+WHEN <Bedingung> THEN <Wahr_Ausgabe> ELSE <Falsch_Ausgabe>
+END
+```
+
+### Beispiele 
+``` sql
+SELECT CASE WHEN 1<2 THEN 'Größer' ELSE 'Kleiner' END
+```
+``` sql
+SELECT CASE WHEN 3<2 THEN 'Größer' ELSE 'Kleiner' END 
+```
 
 ## JOIN
 ## CTEs
