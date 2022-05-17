@@ -6,6 +6,7 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
     - [Aufbau](#aufbau)
     - [Berechnungen](#berechnungen)
     - [Datum](#datum)
+    - [Stringfunktionen](#stringfunktionen)
   - [JOIN](#join)
   - [CTEs](#ctes)
 - [Tools](#tools)
@@ -44,7 +45,22 @@ Eine kleine Zusammenfassung der wichtigsten Befehle und Funktionen in SQL (Struc
 - Runden: ``SELECT ROUND(0.25,1)``
   
 ### Datum
+- Aktuelle Zeit: ``SELECT GETDATE()``
+- Aktuelle Uhrzeit: ``SELECT CAST(GETDATE() AS TIME)``
+- Aktuelles Datum: ``SELECT CAST(GETDATE() AS DATE)``
+- Differenz: ``SELECT DATEDIFF(DAY, '2021-10-07', '2021-10-14')``
+- Addition: ``SELECT DATEADD(WEEK, 3, '2021-10-01')``
 
+### Stringfunktionen
+- Verknüpfen: ``SELECT CONCAT('Hier', 'steht', 'Text')``
+- Ausschneiden: 
+  - ``SELECT LEFT('Hier steht Text', 7)`` 
+  - ``SELECT RIGHT('Hier steht Text', 7)``
+  - ``SELECT SUBSTRlNG('Hier steht Text', 1, 4)``
+- Finden: ``SELECT PATINDEX('%steht%', 'Hier steht Text')``
+- Ersetzen: ``SELECT REPLACE('Hier steht Text', 'steht', 'stand')`` 
+- Trimmen: ``SELECT TRIM(' Leerzeichen vorne und hinten ')``
+- Länge ermitteln: ``SELECT LEN('Beispieltext')``
 
 ## JOIN
 ## CTEs
