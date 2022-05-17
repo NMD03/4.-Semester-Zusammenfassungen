@@ -4,3 +4,4 @@ Diese Repo ist als Sammlung für Zusammenfassungen der Klausurrelevanten Vorlesu
 - [Social Engineering](./Social%20Engineering.md)
 - [IT-Sicherheitsmanagement](./IT-Sicherheitsmanagement.md)
 - [IT-Recht](./IT-Recht.md)
+- [Datenbanken](./Datenbanken.md)
