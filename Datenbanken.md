@@ -10,6 +10,11 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
   - [CASE (SELECT ohne Tabelle)](#case-select-ohne-tabelle)
     - [Aufbau](#aufbau-1)
     - [Beispiele](#beispiele)
+  - [ORDER BY (SELECT mit Tabelle)](#order-by-select-mit-tabelle)
+    - [Aufbau](#aufbau-2)
+    - [Beispiel](#beispiel)
+    - [ASC](#asc)
+    - [DESC](#desc)
   - [JOIN](#join)
   - [CTEs](#ctes)
 - [Tools](#tools)
@@ -79,6 +84,35 @@ SELECT CASE WHEN 1<2 THEN 'Größer' ELSE 'Kleiner' END
 ```
 ``` sql
 SELECT CASE WHEN 3<2 THEN 'Größer' ELSE 'Kleiner' END 
+```
+
+## ORDER BY (SELECT mit Tabelle)
+### Aufbau
+1. SELECT
+2. FROM
+3. WHERE
+4. ORDER BY
+
+### Beispiel
+``` sql
+SELECT Name, Partei
+FROM Politiker
+ORDER BY Name
+```
+
+### ASC
+Die Ordnung erfolgt aufsteigend -> zuerst kleine Zahlen bzw. Buchstaben am Anfang des Alphabets
+``` sql
+SELECT Name, Partei
+FROM Politiker
+ORDER BY Name ASC
+```
+### DESC
+Die Ordnung erfolgt absteigend -> zuerst große Zahlen bzw. Buchstaben am Ende des Alphabets
+``` sql
+SELECT Name, Partei
+FROM Politiker
+ORDER BY Name DESC
 ```
 
 ## JOIN
