@@ -34,7 +34,21 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
   - [DELETE](#delete)
   - [CREATE TABLE](#create-table)
   - [ALTER](#alter)
-  - [CTEs](#ctes)
+  - [IF-Bedingungen](#if-bedingungen)
+    - [Aufbau](#aufbau-6)
+    - [Beispiel](#beispiel-3)
+  - [CASE WHEN](#case-when)
+    - [Aufbau](#aufbau-7)
+    - [Beispiel](#beispiel-4)
+  - [Views](#views)
+    - [Aufbau](#aufbau-8)
+    - [Beispiel](#beispiel-5)
+  - [Unterabfragen](#unterabfragen)
+    - [Unterabfragen in SELECT](#unterabfragen-in-select)
+    - [Unterabfragen in FROM](#unterabfragen-in-from)
+    - [Unterabfragen in WHERE](#unterabfragen-in-where)
+  - [Common Table Expression (CTE)](#common-table-expression-cte)
+    - [Aufbau](#aufbau-9)
 - [ERM Diagramme](#erm-diagramme)
 - [Tools](#tools)
   - [Data Grip](#data-grip)
@@ -263,6 +277,15 @@ CREATE TABLE <Tebellenname>(
 - TEXT
 - DATE
 
+Auch mit SELECT Abfrage möglich:
+```sql
+CREATE TABLE admin_.Mark
+SELECT f.title, ac.actor_id, ac.first_name, ac.last_name
+FROM sakila.actor ac
+JOIN sakila.film_actor fa ON fa.actor_id = ac.actor_id
+JOIN sakila.film f ON f.film_id = fa.film_id
+WHERE ac.first_name = 'Nick' AND ac.last_name = 'Wahlberg';
+```
 ## ALTER
 Verändert ganze Spalten von Tabellen:
 1. Löscht Spalte:
@@ -277,9 +300,91 @@ Verändert ganze Spalten von Tabellen:
    ```sql
    ALTER TABLE <Tabelle> CHANGE COLUMN <AlterName> <NeuerName> <Datentyp>;
    ```
-   
-## CTEs
+## IF-Bedingungen
+### Aufbau
+```sql
+IF(condition, true_value, false_value)
+```
+### Beispiel
+```sql
+SELECT
+IF(CategoryName IN('Condiments','Confections'), 'süß', 'nicht süß')
+AS 'Einstufung'
+FROM northwind.Categories;
+```
+## CASE WHEN
+### Aufbau
+```sql
+CASE case_value
+WHEN when_value THEN statement_list
+[WHEN when_value THEN statement_list]...
+[ELSE statement_list]
+END CASE
+```
+### Beispiel
+```sql
+SELECT *
+CASE 
+WHEN name IN ('Children', 'Comedy', 'Family', 'Travel') THEN 'Kinder-geeignet'
+WHEN name IN ('Action', 'Thriller', 'Drama', 'Horror') THEN 'NIcht für Kinder geeignet'
+ELSE 'unbestimmt'
+END AS 'Einstufung'
+FROM sakila.category;
+```
+## Views
+Eine View ist quasi eine Virtuelle Tabelle die in weiteren Abfragen verwendet werden kann.
+### Aufbau 
+```sql
+CREATE VIEW <View_name>
+AS
+<SELECT-Abfrage>
+```
+### Beispiel
+```sql
+CREATE VIEW admin .vMark AS 
+SELECT f.title, ac.actor id, ac.first name, ac.last name 
+FROM sakila.actor ac 
+JOIN sakila.film actor fa ON fa.actor id = ac.actor id 
+JOIN sakila.film f ON f.film id = fa.film id 
+WHERE ac.first_name = 'Nick' AND ac.last_name = 'Wahlberg';
+```
 
+## Unterabfragen
+### Unterabfragen in SELECT
+**Aufbau**:
+```sql
+SELECT (SELECT s1 FROM t2)
+FROM t1;
+```
+-> Diese Art der Unterabfrage muss einen **Skalarwert** zurückgeben (**eine Zeile und Eine Spalte** -> nur eine Spalte zurückgeben und LIMIT auf 1 setzen)
+### Unterabfragen in FROM
+**Aufbau**:
+```sql
+SELECT *
+FROM (SELECT s1,s2,s3 FROM t2) t1;
+``` 
+-> FROM Unterabfragen werden mit einem Alias benannt und können wie normale Tabellen behandelt werden <br>
+-> mehrfache verschachtelung möglich
+### Unterabfragen in WHERE
+**Aufbau**:
+```sql
+SELECT * 
+FROM t1
+WHERE t1.s1 <OPERAND> <Unterabfrage>
+```
+-> Vergleichs-Operanden:
+  - =, \>, <, \>=, <=, <>, != <br>
+
+-> Vergleich mit Skalarwert der Unterabfrage
+
+## Common Table Expression (CTE)
+### Aufbau
+```sql
+WITH <CTE-Name> AS <SELECT-Abfrage>
+```
+-> speichert Abfragen für Mehrfachnutzung (ähnlich wie VIEW)<br>
+-> Mehrere CTEs hintereinander werden mit Komma getrennt<br>
+-> CTEs können aufeinander aufbauen (Reihenfolge beachten)
 
 # ERM Diagramme
 
