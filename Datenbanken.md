@@ -7,6 +7,8 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
     - [Berechnungen](#berechnungen)
     - [Datum](#datum)
     - [Stringfunktionen](#stringfunktionen)
+    - [Top](#top)
+    - [Distinct](#distinct)
   - [CASE (SELECT ohne Tabelle)](#case-select-ohne-tabelle)
     - [Aufbau](#aufbau-1)
     - [Beispiele](#beispiele)
@@ -15,7 +17,15 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
     - [Beispiel](#beispiel)
     - [ASC](#asc)
     - [DESC](#desc)
+  - [GROUP BY](#group-by)
+    - [Aufbau](#aufbau-3)
+  - [HAVING](#having)
+    - [Aufbau](#aufbau-4)
   - [JOIN](#join)
+    - [Aufbau](#aufbau-5)
+    - [INNER JOIN](#inner-join)
+    - [RIGTH/LEFT JOIN](#rigthleft-join)
+    - [FULL OUTER JOIN](#full-outer-join)
   - [CTEs](#ctes)
 - [Tools](#tools)
   - [Data Grip](#data-grip)
@@ -32,14 +42,13 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
 
 # SQL-Befehle
 Eine kleine Zusammenfassung der wichtigsten Befehle und Funktionen in SQL (Structured Query Language).
-## SELECT
 
+## SELECT
 ### Aufbau
-1. SELECT
+1. **SELECT**
 2. FROM
 3. WHERE
 4. ORDER BY
-
 ### Berechnungen
 - Addition: ``SELECT a + b`` 
 - Subtraktion: ``SELECT a - b``
@@ -50,15 +59,13 @@ Eine kleine Zusammenfassung der wichtigsten Befehle und Funktionen in SQL (Struc
 - Quadrat: ``SELECT SQUARE(3), SQUARE(5)``
 - Absolutbetrag: ``SELECT ABS(-20), ABS(20)``
 - Vorzeichen: ``SELECT SIGN(-42), SIGN(42)``
-- Runden: ``SELECT ROUND(0.25,1)``
-  
+- Runden: ``SELECT ROUND(0.25,1)`` 
 ### Datum
 - Aktuelle Zeit: ``SELECT GETDATE()``
 - Aktuelle Uhrzeit: ``SELECT CAST(GETDATE() AS TIME)``
 - Aktuelles Datum: ``SELECT CAST(GETDATE() AS DATE)``
 - Differenz: ``SELECT DATEDIFF(DAY, '2021-10-07', '2021-10-14')``
 - Addition: ``SELECT DATEADD(WEEK, 3, '2021-10-01')``
-
 ### Stringfunktionen
 - Verknüpfen: ``SELECT CONCAT('Hier', 'steht', 'Text')``
 - Ausschneiden: 
@@ -69,6 +76,18 @@ Eine kleine Zusammenfassung der wichtigsten Befehle und Funktionen in SQL (Struc
 - Ersetzen: ``SELECT REPLACE('Hier steht Text', 'steht', 'stand')`` 
 - Trimmen: ``SELECT TRIM(' Leerzeichen vorne und hinten ')``
 - Länge ermitteln: ``SELECT LEN('Beispieltext')``
+### Top
+``` sql
+SELECT TOP 4 Name, Partei
+FROM Politiker
+```
+--> Die ersten 4 Namen der Poltiker mit der entsprechenden Partei werden ausgegeben
+### Distinct
+``` sql
+SELECT DISTINCT Partei
+FROM Politiker
+```
+--> Alle Parteien werden Ausgegeben allerding nur 1 mal pro Partei (keine Wiederholung)
 
 ## CASE (SELECT ohne Tabelle)
 ### Aufbau
@@ -77,7 +96,6 @@ CASE
 WHEN <Bedingung> THEN <Wahr_Ausgabe> ELSE <Falsch_Ausgabe>
 END
 ```
-
 ### Beispiele 
 ``` sql
 SELECT CASE WHEN 1<2 THEN 'Größer' ELSE 'Kleiner' END
@@ -91,15 +109,13 @@ SELECT CASE WHEN 3<2 THEN 'Größer' ELSE 'Kleiner' END
 1. SELECT
 2. FROM
 3. WHERE
-4. ORDER BY
-
+4. **ORDER BY**
 ### Beispiel
 ``` sql
 SELECT Name, Partei
 FROM Politiker
 ORDER BY Name
 ```
-
 ### ASC
 Die Ordnung erfolgt aufsteigend -> zuerst kleine Zahlen bzw. Buchstaben am Anfang des Alphabets
 ``` sql
@@ -115,7 +131,69 @@ FROM Politiker
 ORDER BY Name DESC
 ```
 
+## GROUP BY
+### Aufbau
+1. SELECT
+2. FROM
+3. WHERE
+4. **GROUP BY**
+5. ORDER BY
+
+## HAVING
+### Aufbau
+1. SELECT
+2. FROM
+3. WHERE
+4. GROUP BY
+5. **HAVING**
+6. ORDER BY
+
 ## JOIN
+Dient zur Verknüpfung meherer Tabellen miteinander anahnd einer Bedingung (oft Gleichheit von Primär- und Fremdschlüsseln)
+### Aufbau 
+1. SELECT
+2. FROM **inkl. JOINs**
+3. WHERE
+4. ORDER BY
+### INNER JOIN
+> Datensätze beider Tabellen werden anhand der Bedingung 
+verbunden, d.h. die Datensätze beider Tabellen müssen diese erfüllen 
+``` sql
+SELECT * 
+FROM Politiker 
+JOIN Partei ON Politiker.Partei = Partei.ID
+```
+![inner JOIN](./img/inner%20join.png)
+### RIGTH/LEFT JOIN
+>  Datensätze beider Tabellen werden anhand der 
+Bedingung verbunden und zusätzlich alle Datensätze der rechten/linken 
+Tabelle, auch wenn diese nicht die Bedingung erfüllen
+
+**LEFT JOIN:**
+``` sql
+SELECT * 
+FROM Politiker 
+LEFT JOIN Partei ON Politiker.Partei = Partei.ID
+```
+![left JOIN](./img/left%20join.png)
+**RIGHT JOIN:**
+``` sql
+SELECT * 
+FROM Politiker 
+RIGHT JOIN Partei ON Politiker.Partei = Partei.ID
+```
+![right JOIN](./img/right%20join.png)
+### FULL OUTER JOIN
+> Datensätze beider Tabellen werden anhand der 
+Bedingung verbunden und zusätzlich alle Datensätze der rechten und 
+linken Tabelle, auch wenn diese nicht die Bedingung erfüllen
+``` sql
+SELECT *
+FROM Politiker
+FULL JOIN Partei ON Politiker.Partei = Partei.ID
+```
+![full join](./img/full%20join.png)
+
 ## CTEs
 
 # Tools
