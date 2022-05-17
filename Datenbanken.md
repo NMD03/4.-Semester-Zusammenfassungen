@@ -7,6 +7,7 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
     - [Berechnungen](#berechnungen)
     - [Datum](#datum)
     - [Stringfunktionen](#stringfunktionen)
+    - [Aggregatsfunktionen](#aggregatsfunktionen)
     - [Top](#top)
     - [Distinct](#distinct)
   - [CASE (SELECT ohne Tabelle)](#case-select-ohne-tabelle)
@@ -19,13 +20,18 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
     - [DESC](#desc)
   - [GROUP BY](#group-by)
     - [Aufbau](#aufbau-3)
+    - [Beispiel](#beispiel-1)
   - [HAVING](#having)
     - [Aufbau](#aufbau-4)
+    - [Beispiel](#beispiel-2)
   - [JOIN](#join)
     - [Aufbau](#aufbau-5)
     - [INNER JOIN](#inner-join)
     - [RIGTH/LEFT JOIN](#rigthleft-join)
     - [FULL OUTER JOIN](#full-outer-join)
+  - [INSERT](#insert)
+  - [UPDATE](#update)
+  - [DELETE](#delete)
   - [CTEs](#ctes)
 - [Tools](#tools)
   - [Data Grip](#data-grip)
@@ -76,6 +82,11 @@ Eine kleine Zusammenfassung der wichtigsten Befehle und Funktionen in SQL (Struc
 - Ersetzen: ``SELECT REPLACE('Hier steht Text', 'steht', 'stand')`` 
 - Trimmen: ``SELECT TRIM(' Leerzeichen vorne und hinten ')``
 - Länge ermitteln: ``SELECT LEN('Beispieltext')``
+### Aggregatsfunktionen
+- Anzahl: ``SELECT COUNT()``
+- Minimalwert: ``SELECT MIN()``
+- Maximalwert: ``SELECT MAX()``
+- Durschnitt: ``SELECT AVG()``
 ### Top
 ``` sql
 SELECT TOP 4 Name, Partei
@@ -138,7 +149,14 @@ ORDER BY Name DESC
 3. WHERE
 4. **GROUP BY**
 5. ORDER BY
-
+### Beispiel
+```sql
+SELECT COUNT(Politiker.ID), Partei.Name
+FROM Partei
+JOIN Politiker ON Politiker.ID = Politiker.Partei
+GROUP BY Partei.Name
+```
+![](./img/group%20by.png)
 ## HAVING
 ### Aufbau
 1. SELECT
@@ -147,6 +165,15 @@ ORDER BY Name DESC
 4. GROUP BY
 5. **HAVING**
 6. ORDER BY
+### Beispiel
+```sql
+SELECT COUNT(Politiker.ID), Partei.Name
+FROM Partei
+JOIN Politiker ON Politiker.ID = Politiker.Partei
+GROUP BY Partei.Name
+HAVING COUNT(Politiker.ID) > 1
+```
+![](./img/Having.png)
 
 ## JOIN
 Dient zur Verknüpfung meherer Tabellen miteinander anahnd einer Bedingung (oft Gleichheit von Primär- und Fremdschlüsseln)
@@ -194,6 +221,9 @@ FULL JOIN Partei ON Politiker.Partei = Partei.ID
 ```
 ![full join](./img/full%20join.png)
 
+## INSERT
+## UPDATE
+## DELETE
 ## CTEs
 
 # Tools
