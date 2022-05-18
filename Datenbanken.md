@@ -1,5 +1,5 @@
 # Datenbanken <!-- omit in toc -->
-Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
+Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken.
 # Inhaltsverzeichnis <!-- omit in toc -->
 - [SQL-Befehle](#sql-befehle)
   - [SELECT](#select)
@@ -66,7 +66,7 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
     - [Languages](#languages)
     - [World GDP](#world-gdp)
     - [World Population](#world-population)
-  - [Postgis](#postgis)
+  - [Postgres/Postgis](#postgrespostgis)
   - [Hausaufgabe](#hausaufgabe)
 
 
@@ -458,7 +458,32 @@ Ein Tool zum visualisieren von geospazialen Daten.
 # Aufgaben
 ## MariaDB
 ### Languages
+Geben Sie mithilfe von CTEs aus: 
+1.	Liste aller Länder und deren offiziell Sprachen
+2.	Auflistung der Länder/Regionen/Kontinente (pro Land/Region/Kontinent nur 1 Zeile!)
+a.	Liste aller Länder, dazu die Anzahl und Namen der offiziellen Sprachen je Land
+b.	Liste aller Regionen, dazu die Anzahl und Namen der offiziellen Sprachen je Region
+c.	Liste aller Kontinente, dazu die Anzahl und Namen der offiziellen Sprachen je Kontinent
+3.	Auflistung der Sprachen: Liste aller Sprachen (pro Sprache nur 1 Zeile!), dazu die Anzahl und Namen der Länder, Regionen und Kontinente, in denen die Sprache gesprochen wird
+4.	Die 5 Länder mit den meisten offiziellen Landessprachen
+5.	Die 5 Sprachen, die in den meisten Ländern offizielle Landessprache sind und deren
+6.	Die 5 Sprachen, die 2015 von den meisten Menschen der Erde gesprochen wurden und die Anzahl der Muttersprachler (Annäherung)
+
+Die [Lösung](./scripts/CTE%20Script%20languages.sql) für die Aufgaben sind im ``scripts`` folder enthalten.
 ### World GDP
+Geben Sie mithilfe von CTEs aus:
+1.	Absolute Weltwirtschaftsleistung (GDP) aus 1995 und 2015: absolute und prozentuale Veränderung<br>
+
+Die [Lösung](./scripts/CTE%20Script%20world%20gdp.sql) für die Aufgaben sind im ``scripts`` folder enthalten.
 ### World Population
-## Postgis
+Geben Sie mithilfe von CTEs aus:
+1.	Weltbevölkerung (Population) aus 1995 und 2015: absolute und prozentuale Veränderung <br>
+
+Die [Lösung](./scripts/CTE%20Script%20world%20population.sql) für die Aufgaben sind im ``scripts`` folder enthalten.
+## Postgres/Postgis
+Geben Sie mithilfe von CTEs aus:
+1.	Pro-Kopf-BIP der Welt aus 1995 und 2015: absolute und prozentuale Veränderung
+
+Die [Lösung](./scripts/CTE%20Script%20world%20population.sql) für die Aufgaben sind im ``scripts`` folder enthalten.
+
 ## Hausaufgabe
