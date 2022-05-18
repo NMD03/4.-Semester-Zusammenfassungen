@@ -54,13 +54,13 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung [IT-Sicherheit
 # Exkurs: [ISMS-Vergleich](https://app.mural.co/t/muralworkspace0660/m/muralworkspace0660/1650627698169/6c1698b2f4ecc70b2a05bb37584d6326040b7ca0?sender=ub64e6270e8be28f188f38372)
 
 ## ISO 27002:2013
-
+- "Goldstandard" der ISMS
 ## TISAX
-
+- Standard in der Automobilindustrie
 ## PCI DSS
-
+- Standard für Zahlungsverkehr und kreditkartentransaktionen
 ## BSI
-
+- Deutscher Standard vom BSI 
 
 # Exkurs: [S-Protect](https://app.mural.co/t/muralworkspace0660/m/muralworkspace0660/1651821857612/2f18d6ec811388f090a85ebc6bc3fd93d7f257c6?sender=u97fae70e91dca3860c9e8161)
 |Pro|Contra|
