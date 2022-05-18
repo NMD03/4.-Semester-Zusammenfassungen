@@ -47,9 +47,16 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung Datenbanken
     - [Unterabfragen in SELECT](#unterabfragen-in-select)
     - [Unterabfragen in FROM](#unterabfragen-in-from)
     - [Unterabfragen in WHERE](#unterabfragen-in-where)
-  - [Common Table Expression (CTE)](#common-table-expression-cte)
+    - [Listen-Unterabfragen in WHERE](#listen-unterabfragen-in-where)
+    - [EXISTS-Unterabfragen in WHERE](#exists-unterabfragen-in-where)
+  - [Ergebnismengenoperationen](#ergebnismengenoperationen)
     - [Aufbau](#aufbau-9)
+  - [Common Table Expression (CTE)](#common-table-expression-cte)
+    - [Aufbau](#aufbau-10)
 - [ERM Diagramme](#erm-diagramme)
+  - [Chen-Notation](#chen-notation)
+  - [UML-Notation](#uml-notation)
+  - [Crow's Foot-Notation](#crows-foot-notation)
 - [Tools](#tools)
   - [Data Grip](#data-grip)
   - [Q-Gis](#q-gis)
@@ -372,10 +379,55 @@ SELECT *
 FROM t1
 WHERE t1.s1 <OPERAND> <Unterabfrage>
 ```
--> Vergleichs-Operanden:
-  - =, \>, <, \>=, <=, <>, != <br>
+-> Vergleichs-Operanden: =, \>, <, \>=, <=, <>, != <br>
 
 -> Vergleich mit Skalarwert der Unterabfrage
+### Listen-Unterabfragen in WHERE
+**Aufbau**:
+```sql
+SELECT *
+FROM t1
+WHERE t1.s1 <OPERATOR> <SOME/ANY> <Unterabfrage>
+```
+oder
+```sql
+SELECT *
+FROM t1
+WHERE t1.s1 <OPERATOR> <ALL> <Unterabfrage>
+```
+oder
+```sql
+SELECT *
+FROM t1
+WHERE t1.s1 <OPERATOR> <IN> <Unterabfrage>
+```
+oder 
+```sql
+SELECT *
+FROM t1
+WHERE t1.s1 <NOT IN> <Unterabfrage>
+```
+-> ``IN``, ``SOME`` und ``ANY`` sind Synonyme (TRUE wenn Vergleich mit mind einem Element der Unterabfrage erfüllt ist)<br>
+-> ``NOT IN`` ist Abkürzung für ``<> ALL`` oder ``!= ALL``
+### EXISTS-Unterabfragen in WHERE
+**Aufbau**:
+```sql
+SELECT * 
+FROM t1
+WHERE (NOT) EXISTS <Unterabfrage>
+```
+-> ``EXISTS`` ist TRUE wenn die Unterabfrage mind. einen Wert zurückliefert <br>
+-> ``NOT EXISTS`` ist TRUE wenn die Unterabfrage keine Werte zurückliefert
+
+## Ergebnismengenoperationen
+### Aufbau
+```sql
+<Abfrage1> UNION (ALL) <Abfrage2> UNION (ALL) <Abfrage3> ...
+```
+-> Kombiniert Ergebnismenge mehrerer Abfragen <br>
+-> ``UNION`` entfernt doppelte Zeilen (ähnlich zu ``SELECT DISTINCT``)<br>
+-> ``UNION ALL`` includiert doppelte Zeilen
+
 
 ## Common Table Expression (CTE)
 ### Aufbau
@@ -387,7 +439,16 @@ WITH <CTE-Name> AS <SELECT-Abfrage>
 -> CTEs können aufeinander aufbauen (Reihenfolge beachten)
 
 # ERM Diagramme
-
+ER-Diagramme werden zur Visualisierung der Verbindungen in einer relationalen Datenbank genutzt. Dabei werden grundlegend zwischen 3 verschiedenen Relationen/Beziehung zwischen den Entitäten unterschieden:
+1. 1 zu 1
+2. 1 zu n
+3. n zu m
+## Chen-Notation
+![](./img/chen%20notation.png)
+## UML-Notation
+![](./img/UML%20notation.png)
+## Crow's Foot-Notation
+![](./img/Crows%20foot%20notation.png)
 # Tools
 ## Data Grip
 ## Q-Gis
