@@ -469,21 +469,36 @@ c.	Liste aller Kontinente, dazu die Anzahl und Namen der offiziellen Sprachen je
 5.	Die 5 Sprachen, die in den meisten Ländern offizielle Landessprache sind und deren
 6.	Die 5 Sprachen, die 2015 von den meisten Menschen der Erde gesprochen wurden und die Anzahl der Muttersprachler (Annäherung)
 
-Die [Lösung](./scripts/CTE%20Script%20languages.sql) für die Aufgaben sind im ``scripts`` folder enthalten.
+[Lösung](./scripts/CTE%20Script%20languages.sql) für die language Aufgaben.
 ### World GDP
 Geben Sie mithilfe von CTEs aus:
-1.	Absolute Weltwirtschaftsleistung (GDP) aus 1995 und 2015: absolute und prozentuale Veränderung<br>
-
-Die [Lösung](./scripts/CTE%20Script%20world%20gdp.sql) für die Aufgaben sind im ``scripts`` folder enthalten.
+1.	Absolute Weltwirtschaftsleistung (GDP) aus 1995 und 2015: absolute und prozentuale Veränderung ([Lösung](./scripts/CTE%20Script%20world%20gdp.sql))
 ### World Population
 Geben Sie mithilfe von CTEs aus:
-1.	Weltbevölkerung (Population) aus 1995 und 2015: absolute und prozentuale Veränderung <br>
+1.	Weltbevölkerung (Population) aus 1995 und 2015: absolute und prozentuale Veränderung. ([Lösung](./scripts/CTE%20Script%20world%20population.sql))
 
-Die [Lösung](./scripts/CTE%20Script%20world%20population.sql) für die Aufgaben sind im ``scripts`` folder enthalten.
 ## Postgres/Postgis
 Geben Sie mithilfe von CTEs aus:
-1.	Pro-Kopf-BIP der Welt aus 1995 und 2015: absolute und prozentuale Veränderung
+1.	Absolute Weltwirtschaftsleistung (GDP) aus 1995 und 2015: absolute und prozentuale Veränderung ([Lösung](./scripts/CTE%20Script%20world%20gdp%20Postgres.sql))
+2.	Weltbevölkerung (Population) aus 1995 und 2015: absolute und prozentuale Veränderung ([Lösung](./scripts/CTE%20Script%20population%20Postgres.sql))
+3.	Pro-Kopf-BIP der Welt aus 1995 und 2015: absolute und prozentuale Veränderung ([Lösung](./scripts/CTE%20Script%20gdp_per_capita%20Postgres.sql))
 
-Die [Lösung](./scripts/CTE%20Script%20world%20population.sql) für die Aufgaben sind im ``scripts`` folder enthalten.
+
+Geben Sie mithilfe von CTEs aus: 
+1.	Liste aller Länder und deren offiziell Sprachen
+2.	Auflistung der Länder/Regionen/Kontinente (pro Land/Region/Kontinent nur 1 Zeile!)
+a.	Liste aller Länder, dazu die Anzahl und Namen der offiziellen Sprachen je Land
+b.	Liste aller Regionen, dazu die Anzahl und Namen der offiziellen Sprachen je Region
+c.	Liste aller Kontinente, dazu die Anzahl und Namen der offiziellen Sprachen je Kontinent
+3.	Auflistung der Sprachen: Liste aller Sprachen (pro Sprache nur 1 Zeile!), dazu die Anzahl und Namen der Länder, Regionen und Kontinente, in denen die Sprache gesprochen wird
+4.	Die 5 Länder mit den meisten offiziellen Landessprachen
+5.	Die 5 Sprachen, die in den meisten Ländern offizielle Landessprache sind und deren
+6.	Die 5 Sprachen, die 2015 von den meisten Menschen der Erde gesprochen wurden und die Anzahl der Muttersprachler (Annäherung)
+
+[Lösung](./scripts/CTE%20Script%20languages%20Postgres.sql) für die Language-Aufgaben
 
 ## Hausaufgabe
+Geben Sie aus und visualisieren Sie in QGIS…
+1. alle Länder des Kontinents Europa ([Lösung](./scripts/Geo%20Hausaufgabe%201%20a%20Musterlösung.sql))
+2. alle Länder, in denen Englisch offizielle Amtssprache ist ([Lösung](./scripts/Geo%20Hausaufgabe%201%20b%20Musterlösung.sql))
+3. alle Städte, in denen Spanisch offizielle Amtssprache ist ([Lösung](./scripts/Geo%20Hausaufgabe%201%20c%20Musterlösung.sql))
