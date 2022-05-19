@@ -14,7 +14,7 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [Zertifizierungsprozess](#zertifizierungsprozess)
 - [BSI 200](#bsi-200)
   - [Inhalt](#inhalt-1)
-  - [Zusammenfassung:](#zusammenfassung)
+  - [Zusammenfassung](#zusammenfassung)
 - [Ausländisches Datenschutzrecht](#ausländisches-datenschutzrecht)
   - [Türkei](#türkei)
   - [Brasilien](#brasilien)
@@ -41,6 +41,12 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [Computer Transaction Logs von Mitarbeitern](#computer-transaction-logs-von-mitarbeitern)
   - [Bulletproof Hoster](#bulletproof-hoster)
   - [Sanktionskatalog für Disziplinarprozess für ISO27001](#sanktionskatalog-für-disziplinarprozess-für-iso27001)
+- [Zero Trust](#zero-trust)
+  - [Herausforderungen in der modernen Welt](#herausforderungen-in-der-modernen-welt)
+  - [Security Modernization Imperatives](#security-modernization-imperatives)
+  - [Zero Trust Komponenten](#zero-trust-komponenten)
+  - [Zero Trust Core Principals](#zero-trust-core-principals)
+  - [Netzwerk vs Identity Kontrolle](#netzwerk-vs-identity-kontrolle)
 
 # Derzeitige Sicherheitssituation
 Die aktuelle internationale Sicherheitssituation wird so eingeschätzt, dass es ein **hohes Risiko** für **Cyberattacken** gibt. Die aktuell größte Bedrohung stellt **Ransomware** dar. Dabei weitet sich der Scope auf Enterprise Level aus, das heißt es wird versucht alle Daten und Systeme eines gesamten Unternehmens zu verschlüsseln. Der aktuelle State of the Art im Bezug auf Ransomware ist demnach **Human Operated Ransomware**.
@@ -183,15 +189,15 @@ Unterteilung in 5 Bestandteile:
 2. BSI-Standard 200-2
    - IT-Grundschutz-Methodik:
      - Unterteilung in Kern, Basis und Standard Absicherung: ![](./img/BSI%20Schutzbedarf.png)
-     - Schutzbedarfsermittlung wird mit dem Managment durchgeführt -> Managment entscheidet
-     - bildet Schnittstelle zur Management Ebene
+     - **Schutzbedarfsermittlung** wird mit dem Managment durchgeführt -> **Managment entscheidet**
+     - bildet **Schnittstelle zur Management Ebene**
 3. BSI-Standard 200-3
    - Risiko Analyse
 4. BSI-Standard 200-4
    - Notfallmanagement
 5. BSI IT-Grundschutz-Kompendium
 
-## Zusammenfassung:
+## Zusammenfassung
 ![](./img/BSI%20Standard.png)
 
 
@@ -400,3 +406,46 @@ National Defense Authorization Act
 - ist aber **DSGVO konform**
 - Ist der **Inhalt des Katalogs** angemessen?
 - Statt eines Sanktionskatalogs schriftlich festhalten, dass im Falle eines Vorfalls ein **disziplinar-Verfahren** angestoßen wird (Personalabteilung)
+
+# Zero Trust
+- Ransomware als Auslöser
+- im Gegensatz zum klassischen Ansatz werden die einzelenen Assets mit einer zentralen Policy abgesichert
+![](./img/zero%20trust%20approach.png)
+## Herausforderungen in der modernen Welt
+- Homeoffice
+- schnell verändernde Partnerschaften und Konkurrenz
+- schnell wechselnde communication patterns
+- neue nationale Interessen und regulierungen
+## Security Modernization Imperatives
+- Automated Policy Enforcement 
+- Adaptive identity management 
+- Data-centric and asset-centric approaches 
+## Zero Trust Komponenten
+![](./img/zero%20trust%20komponenten.png)
+## Zero Trust Core Principals
+1. Modern work enablement
+   - Homeoffice etc ermöglichen
+2. Goal allignment
+3. Risk allignment
+4. People Guidance and Inspiration
+   - intrinsiche Motivation
+5. Risk & Complexity Reduction 
+6. Alignment & Automation
+   - Aufzeichnung von Bedrohungen
+7. Security for the full Lifecycle
+8. Asset centric security
+9.  Least Priveledge
+    - Just in Time (JIT)
+    - Just enough access (JEA) -> Need to know
+    - adaptive policies 
+    - Data protection against out of band vectors
+10. Simple and Pervasive
+11. Explicit trust validation
+    - User identity amd location
+    - Device health
+    - Anomalien 
+
+-> Assume breach
+- alle Dienste Ende zu Ende verschlüsseln (auch intern)
+## Netzwerk vs Identity Kontrolle
+![](./img/Netzwerk%20vs%20identity.png)
