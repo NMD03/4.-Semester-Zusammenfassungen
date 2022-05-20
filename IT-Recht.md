@@ -47,6 +47,8 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [Zero Trust Komponenten](#zero-trust-komponenten)
   - [Zero Trust Core Principals](#zero-trust-core-principals)
   - [Netzwerk vs Identity Kontrolle](#netzwerk-vs-identity-kontrolle)
+  - [Managing organizational risk](#managing-organizational-risk)
+  - [Attack Chains](#attack-chains)
 
 # Derzeitige Sicherheitssituation
 Die aktuelle internationale Sicherheitssituation wird so eingeschätzt, dass es ein **hohes Risiko** für **Cyberattacken** gibt. Die aktuell größte Bedrohung stellt **Ransomware** dar. Dabei weitet sich der Scope auf Enterprise Level aus, das heißt es wird versucht alle Daten und Systeme eines gesamten Unternehmens zu verschlüsseln. Der aktuelle State of the Art im Bezug auf Ransomware ist demnach **Human Operated Ransomware**.
@@ -449,3 +451,17 @@ National Defense Authorization Act
 - alle Dienste Ende zu Ende verschlüsseln (auch intern)
 ## Netzwerk vs Identity Kontrolle
 ![](./img/Netzwerk%20vs%20identity.png)
+
+## Managing organizational risk
+-> Geschäftsführung legt risk appetite fest <br>
+Risiken:
+- Naturkatastrophen
+- Marktrelevanz
+  - viele neue Startups
+  - schnelle Veränderungen
+- IT-Operations
+- Cyber Security
+  - eigenes Feld lösgelöst von der eig. IT 
+
+## Attack Chains
+![](./img/Attack%20Chains.png)
