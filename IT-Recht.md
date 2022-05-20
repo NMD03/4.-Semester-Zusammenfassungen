@@ -6,6 +6,10 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [Schwachstellen im Information Security Managment System (ISMS) und der Cyber Security](#schwachstellen-im-information-security-managment-system-isms-und-der-cyber-security)
 - [Standardisierung](#standardisierung)
   - [Prozess zum implementieren eines Information Sicherheit Management Systems (ISMS):](#prozess-zum-implementieren-eines-information-sicherheit-management-systems-isms)
+- [Schutzziele](#schutzziele)
+- [ITIL](#itil)
+  - [ITIL v3](#itil-v3)
+  - [ITIL v4](#itil-v4)
 - [KRITIS](#kritis)
 - [ISO 27001](#iso-27001)
   - [Anmerkungen](#anmerkungen)
@@ -15,6 +19,25 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
 - [BSI 200](#bsi-200)
   - [Inhalt](#inhalt-1)
   - [Zusammenfassung](#zusammenfassung)
+- [InfoSec Wheel](#infosec-wheel)
+  - [Core Teams](#core-teams)
+  - [Mixed Teams](#mixed-teams)
+  - [CISO](#ciso)
+- [DSGVO](#dsgvo)
+  - [Grundsätze des Datenschutzes in Deutschland](#grundsätze-des-datenschutzes-in-deutschland)
+  - [Geltungsbereich](#geltungsbereich)
+  - [Art 4: Definitionen](#art-4-definitionen)
+  - [Art 5: Prinzipien bezogen auf die Verarbeitung von personenbezogenen Daten](#art-5-prinzipien-bezogen-auf-die-verarbeitung-von-personenbezogenen-daten)
+  - [Art 6: Rechtmäßige Verarbeitung](#art-6-rechtmäßige-verarbeitung)
+  - [Art 7: Vorraussetzungen für die Einwilligung](#art-7-vorraussetzungen-für-die-einwilligung)
+  - [Art 8: Zustimmung von Minderjährigen](#art-8-zustimmung-von-minderjährigen)
+  - [Art 9: Verarbeitung von speziellen personenbezogenen Daten](#art-9-verarbeitung-von-speziellen-personenbezogenen-daten)
+  - [Art 10: Verarbeitung von personenbezogenen Daten mit Bezug zu Straftaten und strafrechtlicher Verfolgung](#art-10-verarbeitung-von-personenbezogenen-daten-mit-bezug-zu-straftaten-und-strafrechtlicher-verfolgung)
+  - [Art 12:](#art-12)
+  - [Art 13:](#art-13)
+  - [Art 14:](#art-14)
+  - [Art 17: Recht auf Löschung](#art-17-recht-auf-löschung)
+  - [Betroffenen-Rechte nach DSGVO](#betroffenen-rechte-nach-dsgvo)
 - [Ausländisches Datenschutzrecht](#ausländisches-datenschutzrecht)
   - [Türkei](#türkei)
   - [Brasilien](#brasilien)
@@ -117,6 +140,22 @@ Mögliche Standards:
 7. **Management Approval einholen (schriftlich)**
 8. **Project starten**
 
+# Schutzziele 
+# ITIL
+## ITIL v3
+**KLassen**:
+- Service Strategy
+- Service Design
+- Service Transition
+- Service Operation
+- Continual Service Improvement
+  
+-> CISO ist zuständig für den Bereich des continual service improvements<br>
+-> Es fehlt Bezug zum Unternehmen/Geschäftsführung
+## ITIL v4 
+ITIL v4 ist die neueste ITIL Version (seit 2018) -> Viele Unternehmen verwenden dementsprechen noch ITIL v3. Im Gegensatz zu v3 kommen die **Guidingprincipals** in v4 nicht aus der IT sondern von der **Geschäfstführung**. ITIL v4 besteht aus 2 Kernkomponeneten:
+1. Vier-dimensions-Modell ![](./img/4-dimensions-model.png)
+2. Service value system (SVS) ![](./img/SVS.png)
 # KRITIS
 KRITIS steht für **kritische Infrastruktur**. Unter diesen Begriff fällt alles was von Grundlegender Bedeutung für die **Gesellschaft** oder **Wirtschaft** ist, sodass ein Ausfall dieser zu **Lieferengpässen**, **öffentlichem Sicherheitsverlust** oder anderen **dramatische Konsequenzen** führen könnte.
 
@@ -202,6 +241,82 @@ Unterteilung in 5 Bestandteile:
 ## Zusammenfassung
 ![](./img/BSI%20Standard.png)
 
+# InfoSec Wheel
+![](./img/InfoSec%20Wheel.png)
+## Core Teams
+**Red Team**
+- Offensive Security Team
+- Pen-testing
+- ethical hacking
+
+**Blue Team**
+- Defensive Security Team
+- Incident Response (IR)
+- Threat Hunting
+
+**Yellow Team**
+- Software Engineers 
+- Developer
+
+## Mixed Teams
+**Green Team**
+- zwischen Yellow und Blue Team
+
+**Orange Team**
+- zwischen Yellow und Red Team
+
+**Purple Team**
+- zwischen Red und Blue Team
+- Verteidigungstaktiken mit Ergebnissen der Offensive integrieren
+
+## CISO
+Die Position des CISO hat im InfoSec Wheel eine sonderstellung ist im Bereich des White Teams in der mItte des Wheels anzusiedeln.
+
+# DSGVO
+- Datenschutzgrundverordnung (DSGVO) 2016 beschlossen und seit 2018 in Kraft
+- deutsche Implementierung im BDSG
+- Kirchen sind von der DSGVO ausgenommen 
+## Grundsätze des Datenschutzes in Deutschland
+1. Datenschutz schützt **keine Daten** sondern die hinter den Daten stehenden **Personen**
+2. Zum Datenschutz gehört auch die IT-Sicherheit -> technisch organisatorischer Schutz von Daten. Dieser Schutz wird durch TOMs umgesetzt
+3. Grundrecht auf informationelle Selbstbestimmung
+4. 'Verbot mit Erlaubnisvorbehalt' -> Datenverarbeitung grundsätzlich verboten
+## Geltungsbereich
+- Die DSGVO gilt grundsätzlich in allen EU Staaten
+- in manchen Ländern außerhalb der EU gelten ähnliche Gesetze (z.B. Schweiz, Argentien, Japan, etc.)
+## Art 4: Definitionen
+**personenebezogene Daten**<br>
+> a
+
+**Processing/Datenverarbeitung**
+> a
+
+**Pseudonymisierung**
+> a
+
+**Dateisystem**
+> a
+
+**Proccessor**
+> a
+
+**Controller**
+> a
+
+## Art 5: Prinzipien bezogen auf die Verarbeitung von personenbezogenen Daten
+## Art 6: Rechtmäßige Verarbeitung
+## Art 7: Vorraussetzungen für die Einwilligung
+## Art 8: Zustimmung von Minderjährigen
+## Art 9: Verarbeitung von speziellen personenbezogenen Daten
+## Art 10: Verarbeitung von personenbezogenen Daten mit Bezug zu Straftaten und strafrechtlicher Verfolgung 
+## Art 12: 
+## Art 13:
+## Art 14:
+## Art 17: Recht auf Löschung
+## Betroffenen-Rechte nach DSGVO
+- Recht auf Information
+- Recht auf Zugriff
+- 
 
 # Ausländisches Datenschutzrecht
 ## Türkei
