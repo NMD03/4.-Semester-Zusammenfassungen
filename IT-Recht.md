@@ -285,30 +285,62 @@ Die Position des CISO hat im InfoSec Wheel eine sonderstellung ist im Bereich de
 - Die DSGVO gilt grundsätzlich in allen EU Staaten
 - in manchen Ländern außerhalb der EU gelten ähnliche Gesetze (z.B. Schweiz, Argentien, Japan, etc.)
 ## Art 4: Definitionen
-**personenebezogene Daten**<br>
-> a
+**Personenebezogene Daten**<br>
+> Personenbezogene Daten meint jede Art von daten mit deinen eine Person identfiziert wird oder werden kann. Eine Identifizierbare Person ist dabei eine Person die Anhand eines Identifieres wie beispielsweise eines Namens, Telefonummer, etc einer Identität/Gruppierung zugeordnet werden kann.
 
 **Processing/Datenverarbeitung**
-> a
+> Als Processing wird jeglich Verarbeitung von personenbezogenen Daten oder einem Datensatz dieser bezeichnet.
 
 **Pseudonymisierung**
-> a
+> Pseudonymisierung ist eine Art der Datenverabeitung von personenebezogenen Daten, sodass diese nichtmehr eindeutig ohen zusätzliche Informationen einem Data Subject zugeordnet werden kann.
 
 **Dateisystem**
-> a
+> Strukturierte Sets von personenbezogenen Daten werden als Dateissystem bezeichnet. 
 
 **Proccessor**
-> a
+> Processor ist eine Person oder Institution, die personenbezogen Daten im Auftrag des Controllers verarbeitet.
 
 **Controller**
-> a
+> Controller ist eine Person oder Institution, die personenbezogene Daten erhebt und deren Verwendungszweck bestimmt.
 
 ## Art 5: Prinzipien bezogen auf die Verarbeitung von personenbezogenen Daten
+Daten sollen:
+1. rechtmäßig, fair und transparent verarbeitet werden
+2. für spezifische und legitime Gründe erhoben werden
+3. adequat, relevant und auf das für den Anlass nötigste limitiert sein
+4. akkurat und aktuell sein
+5. nicht länger als nötig behalten werden
+6. sicher aufbewahrt werden
+
+-> **Controller** sind verantwörtlich und müssen in der Lage sein zu zeigen, dass die oben genannten Punkte eingehalten werden 
 ## Art 6: Rechtmäßige Verarbeitung
+Die Verarbeitung personenebezogener Daten ist rechtmäßig in folgenden Fällen:
+- Freiwilliges Einverständnis des Data Subject 
+- Vertragliche Notwendigkeit (um einem Vertrag zustimmen zu können)
+- Vitale Interessen (Leib und Leben)
+- Öffentliches Interesse
+- legitimes Interesse
+- Strafermittlungen
 ## Art 7: Vorraussetzungen für die Einwilligung
+1. Im Falle einer freiwilligen Einwilligung muss der Controller nachweisen können, dass das Data Subject seine Zustimmung gegeben hat
+2. Bei schriftlicher Zustimmung muss die Zustimmung für die Verarbeitung klar trennbar von anderen schriftlichen Vereinbarungen in dem Dokument erkennbar sein
+3. Das data Subject darf jeder Zeit seine Zustimmung zurückziehen. (muss genauso leicht sein wie Zustimmung)
+4. a
+   
 ## Art 8: Zustimmung von Minderjährigen
 ## Art 9: Verarbeitung von speziellen personenbezogenen Daten
+Die Verarbeitung von personenbezogenen Daten, die 
+- Rasse
+- Ethnie
+- Politische Meinung
+- Glaube
+- biometrische Daten
+- Genetik
+- Gesundheit
+- Sexualität
+aufdecken, ist untersagt.
 ## Art 10: Verarbeitung von personenbezogenen Daten mit Bezug zu Straftaten und strafrechtlicher Verfolgung 
+Die Verarbeitung von Daten bezogen auf vorangegeangene Straftaten einer Person ist nur für staatliche Behörden gestattet oder mit Genehmigung des Staates.
 ## Art 12: 
 ## Art 13:
 ## Art 14:
