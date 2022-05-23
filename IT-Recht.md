@@ -278,15 +278,15 @@ Die Position des CISO hat im InfoSec Wheel eine sonderstellung ist im Bereich de
 - Kirchen sind von der DSGVO ausgenommen 
 ## Grundsätze des Datenschutzes in Deutschland
 1. Datenschutz schützt **keine Daten** sondern die hinter den Daten stehenden **Personen**
-2. Zum Datenschutz gehört auch die IT-Sicherheit -> technisch organisatorischer Schutz von Daten. Dieser Schutz wird durch TOMs umgesetzt
-3. Grundrecht auf informationelle Selbstbestimmung
-4. 'Verbot mit Erlaubnisvorbehalt' -> Datenverarbeitung grundsätzlich verboten
+2. Zum Datenschutz gehört auch die **IT-Sicherheit** -> technisch organisatorischer Schutz von Daten. Dieser Schutz wird durch TOMs umgesetzt
+3. **Grundrecht auf informationelle Selbstbestimmung**
+4. 'Verbot mit Erlaubnisvorbehalt' -> **Datenverarbeitung grundsätzlich verboten**
 ## Geltungsbereich
-- Die DSGVO gilt grundsätzlich in allen EU Staaten
+- Die DSGVO gilt grundsätzlich in allen **EU Staaten**
 - in manchen Ländern außerhalb der EU gelten ähnliche Gesetze (z.B. Schweiz, Argentien, Japan, etc.)
 ## Art 4: Definitionen
 **Personenebezogene Daten**<br>
-> Personenbezogene Daten meint jede Art von daten mit deinen eine Person identfiziert wird oder werden kann. Eine Identifizierbare Person ist dabei eine Person die Anhand eines Identifieres wie beispielsweise eines Namens, Telefonummer, etc einer Identität/Gruppierung zugeordnet werden kann.
+> Personenbezogene Daten meint jede Art von daten mit deinen eine **Person identfiziert** wird oder werden kann. Eine Identifizierbare Person ist dabei eine Person die Anhand eines Identifieres wie beispielsweise eines Namens, Telefonummer, etc einer Identität/Gruppierung zugeordnet werden kann.
 
 **Processing/Datenverarbeitung**
 > Als Processing wird jeglich Verarbeitung von personenbezogenen Daten oder einem Datensatz dieser bezeichnet.
@@ -295,7 +295,7 @@ Die Position des CISO hat im InfoSec Wheel eine sonderstellung ist im Bereich de
 > Pseudonymisierung ist eine Art der Datenverabeitung von personenebezogenen Daten, sodass diese nichtmehr eindeutig ohen zusätzliche Informationen einem Data Subject zugeordnet werden kann.
 
 **Dateisystem**
-> Strukturierte Sets von personenbezogenen Daten werden als Dateissystem bezeichnet. 
+> **Strukturierte** Sets von **personenbezogenen Daten** werden als Dateissystem bezeichnet. 
 
 **Proccessor**
 > Processor ist eine Person oder Institution, die personenbezogen Daten im Auftrag des Controllers verarbeitet.
