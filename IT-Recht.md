@@ -27,7 +27,7 @@ Dieses File beinhaltete eine kleine Zusammenfassung der Vorlesung IT-Recht. :man
   - [Grundsätze des Datenschutzes in Deutschland](#grundsätze-des-datenschutzes-in-deutschland)
   - [Geltungsbereich](#geltungsbereich)
   - [Art 4: Definitionen](#art-4-definitionen)
-  - [Art 5: Prinzipien bezogen auf die Verarbeitung von personenbezogenen Daten](#art-5-prinzipien-bezogen-auf-die-verarbeitung-von-personenbezogenen-daten)
+  - [Art 5: Prinzipien der Verarbeitung von personenbezogenen Daten](#art-5-prinzipien-der-verarbeitung-von-personenbezogenen-daten)
   - [Art 6: Rechtmäßige Verarbeitung](#art-6-rechtmäßige-verarbeitung)
   - [Art 7: Vorraussetzungen für die Einwilligung](#art-7-vorraussetzungen-für-die-einwilligung)
   - [Art 8: Zustimmung von Minderjährigen](#art-8-zustimmung-von-minderjährigen)
@@ -303,7 +303,7 @@ Die Position des CISO hat im InfoSec Wheel eine sonderstellung ist im Bereich de
 **Controller**
 > Controller ist eine Person oder Institution, die personenbezogene Daten erhebt und deren Verwendungszweck bestimmt.
 
-## Art 5: Prinzipien bezogen auf die Verarbeitung von personenbezogenen Daten
+## Art 5: Prinzipien der Verarbeitung von personenbezogenen Daten
 Daten sollen:
 1. rechtmäßig, fair und transparent verarbeitet werden
 2. für spezifische und legitime Gründe erhoben werden
